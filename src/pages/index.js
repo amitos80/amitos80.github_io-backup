@@ -14,7 +14,7 @@ import styles from "./index.module.css";
 const IndexPage = () => {
   return (
     <Wrapper>
-      <div className={`container ${styles.layout}`}>
+      <div className={`container ${styles.layout} ${styles.containerFadeIn}`}>
         <Hero />
         <AboutMe />
         <Projects />

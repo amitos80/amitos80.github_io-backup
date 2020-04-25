@@ -76,3 +76,8 @@ section:hover .heading {
     font-size: 16px;
   }
 }
+
+#gatsby-focus-wrapper {
+    width: 100% !important;
+    min-width: 100% !important;
+}
