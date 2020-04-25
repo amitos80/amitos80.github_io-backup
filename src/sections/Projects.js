@@ -36,7 +36,7 @@ const Projects = () => {
     <section id="projects">
       <Heading icon={FaDev} title="Projects" />
 
-      <div className="flex overflow-x-auto pb-8">
+      <div className="flex overflow-x-auto">
         {data.allProjectsJson.edges.map(({ node }, index) => (
           <div
             key={node.id}
@@ -49,7 +49,7 @@ const Projects = () => {
               href={node.website || node.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
+              className="sm:w-8/9 md:w-1 w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
             >
               <FaLink className="absolute" color="#FFF" size="5rem" />
               <GatsbyImage

@@ -1,19 +1,5 @@
 [
     {
-        "image": "../images/projects/ciyot.png",
-        "title": "Ciyot at Harmony Group",
-        "description": "",
-        "tags": [
-            "vuejs",
-            "vuex",
-            "casandra",
-            "mysql",
-            "nodejs",
-            "real time analytics"
-        ],
-        "website": "https://app.harmony-iot.app/"
-    },
-    {
         "image": "../images/projects/lnrd.png",
         "title": "Lnrd at StoreMaven",
         "description": "",
@@ -42,6 +28,20 @@
         ],
         "website": "test.ffm.to/ejwojka-advanced",
         "github": ""
+    },
+    {
+        "image": "../images/projects/ciyot.png",
+        "title": "Ciyot at Harmony Group",
+        "description": "",
+        "tags": [
+            "vuejs",
+            "vuex",
+            "casandra",
+            "mysql",
+            "nodejs",
+            "real time analytics"
+        ],
+        "website": "https://app.harmony-iot.app/"
     },
     {
         "image": "../images/projects/fxempire.png",
