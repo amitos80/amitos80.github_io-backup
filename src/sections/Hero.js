@@ -31,7 +31,7 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    if (!isMobile) {
+    if (isMobile) {
       setParallax(
         new Parallax(parallaxRef.current, {
           invertX: false,
