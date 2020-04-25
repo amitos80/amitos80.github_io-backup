@@ -7,7 +7,7 @@ const Subtitle = ({ onDone }) => (
     startDelay={500}
     avgTypingDelay={20}
     cursor={{ show: false }}
-    className="my-2 flex lg:h-32"
+    className="my-2 flex h-32 md:h-40 lg:h-32"
     onTypingDone={onDone}
   >
     <code className="w-full text-sm leading-loose">
