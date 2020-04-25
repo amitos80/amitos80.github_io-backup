@@ -49,7 +49,7 @@ const Projects = () => {
               href={node.website || node.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="sm:w-8/9 md:w-1 w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
+              className="sm:w-8/9 w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
             >
               <FaLink className="absolute" color="#FFF" size="5rem" />
               <GatsbyImage
