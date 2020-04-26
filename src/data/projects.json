@@ -9,7 +9,7 @@
             "redux",
             "ssr",
             "nodejs",
-            "styled components"
+            "styled-components"
         ],
         "website": "https://jobs.storemaven.com/"
     },
@@ -23,8 +23,8 @@
             "mongodb",
             "redis",
             "musicplayer",
-            "real-time analytics",
-            "3rd party integrations"
+            "real-time-analytics",
+            "3rd-party-integrations"
         ],
         "website": "test.ffm.to/ejwojka-advanced",
         "github": ""
@@ -39,7 +39,7 @@
             "casandra",
             "mysql",
             "nodejs",
-            "real time analytics"
+            "real-time-analytics"
         ],
         "website": "https://app.harmony-iot.app/"
     },
@@ -51,11 +51,10 @@
             "react",
             "redux",
             "ssr",
-            "deep google integrations for seo",
-            "seo",
+            "seo-implementation",
             "mongodb",
             "redis",
-            "styled components"
+            "styled-components"
         ],
         "website": "https://www.fxempire.com/"
     }

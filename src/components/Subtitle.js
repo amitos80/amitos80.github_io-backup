@@ -19,9 +19,9 @@ const Subtitle = ({ onDone }) => (
         <span className="text-yellow-600">= [</span>
       </div>
       <div className="lg:pl-8">
-        <span className="text-red-500">Architecture Design</span>,{" "}
-        <span className="text-red-500">Rapid Prototyping</span>,{" "}
-        <span className="text-red-500">Web Development</span>,{" "}
+        <span className="text-red-500">ArchitectureDesign</span>,{" "}
+        <span className="text-red-500">RapidPrototyping</span>,{" "}
+        <span className="text-red-500">WebDevelopment</span>,{" "}
         <span className="text-red-500">Instructing</span>,{" "}
       </div>
       <div className="lg:pl-8">
