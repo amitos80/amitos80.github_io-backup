@@ -20,14 +20,14 @@ const Subtitle = ({ onDone }) => (
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">ArchitectureDesign</span>,{" "}
-        <span className="text-red-500">RapidPrototyping</span>,{" "}
         <span className="text-red-500">WebDevelopment</span>,{" "}
-        <span className="text-red-500">Instructing</span>,{" "}
+        <span className="text-red-500">RapidPrototyping</span>,{" "}
+        <span className="text-red-500">Teaching</span>,{" "}
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">Guitars</span>,{" "}
         <span className="text-red-500">Electronics</span>, ...
-        <span className="text-red-500">LotsOfFun</span>
+        <span className="text-red-500">RocknRoll</span>
       </div>
       <div className="text-yellow-600" >];</div>
     </code>
