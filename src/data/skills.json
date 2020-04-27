@@ -1,32 +1,32 @@
 [
   {
-    "icon": "../images/skills/web.png",
-    "name": "Web Design & Development",
-    "tech": "HTML/CSS/Javascript"
+    "icon": "../images/skills/js.png",
+    "name": "Web Development - Front End and Backend",
+    "tech": "HTML/CSS/Javascript/Nodejs"
   },
   {
-    "icon": "../images/skills/angular.png",
+    "icon": "../images/skills/react.png",
     "name": "Frontend Javascript Frameworks",
-    "tech": "AngularJS/Angular 9/React/Vue.js/Svelte"
+    "tech": "React/Vue.js/Riot/Angular"
   },
   {
     "icon": "../images/skills/nodejs.png",
     "name": "Backend Javascript Frameworks",
-    "tech": "Node.js/Express.js/Mongoose"
+    "tech": "Node.js/Express.js/Mongoose/Express Restify Mongoose"
   },
   {
     "icon": "../images/skills/database.png",
     "name": "Database Management System",
-    "tech": "MySQL/Postgres/MongoDB"
+    "tech": "MongoDB/MySQL/Cassandra"
   },
   {
     "icon": "../images/skills/android.png",
     "name": "Android App Development",
-    "tech": "Android Studio/Java/Kotlin/XML"
+    "tech": "Android Studio/Java/XML"
   },
   {
     "icon": "../images/skills/seo.png",
     "name": "Search Engine Optimization",
-    "tech": "PageRank/Backlinks/Google Analytics"
+    "tech": "PageRank/Schema.org Implementation/Best Practices/Google Analytics"
   }
 ]
