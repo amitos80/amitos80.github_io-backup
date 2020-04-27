@@ -42,11 +42,11 @@ self.__precacheManifest = [
   },
   {
     "url": "404.html",
-    "revision": "794093ab8bfc9da97df044427cabaf1b"
+    "revision": "469a0135756707c3ffebe7ac273f61cf"
   },
   {
     "url": "404/index.html",
-    "revision": "9b67c2c4149cc0e23f8b5af216beb34e"
+    "revision": "821b10ef4b7ab71bf325cb80d4d034bb"
   },
   {
     "url": "95b64a6e-7df4b477ec432349209d.js"
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "chunk-map.json",
-    "revision": "ba3738e35139da76a7790d70866505e6"
+    "revision": "0b25c7d65da956b40007e6976aa74bbb"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-18b9bd78e89bbe4752a5.js"
@@ -81,15 +81,15 @@ self.__precacheManifest = [
     "revision": "f3c2f59e70f621e379afc2ba8eb4fea1"
   },
   {
-    "url": "component---src-pages-index-js-ca0720655abb871ed540.js"
+    "url": "component---src-pages-index-js-a097725bb6d54df8f7ca.js"
   },
   {
-    "url": "component---src-pages-index-js-ca0720655abb871ed540.js.map",
-    "revision": "8e3a64e9b2172c47f75fb8f195e96eb5"
+    "url": "component---src-pages-index-js-a097725bb6d54df8f7ca.js.map",
+    "revision": "e71e880f3ba418d0c0754df4a699eaed"
   },
   {
     "url": "favicon-32x32.png",
-    "revision": "60e4e9c72296b98f6d366846eb00660d"
+    "revision": "c13d7de135016ba6486216b8ccde004d"
   },
   {
     "url": "framework-972833c791692296cdd7.js"
@@ -100,42 +100,42 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/icon-144x144.png",
-    "revision": "aa6736162640665185e1d71965f6e8b7"
+    "revision": "713880dc1e30122674324a5e13019cc2"
   },
   {
     "url": "icons/icon-192x192.png",
-    "revision": "f4dd8f0401ff0562d771e6e87189d0a3"
+    "revision": "3915ef16ade05bf54a3d38342a9bcbeb"
   },
   {
     "url": "icons/icon-256x256.png",
-    "revision": "6708fea9cdf67b642b1c0c8012eac416"
+    "revision": "b627293dd27062392f77120025af2117"
   },
   {
     "url": "icons/icon-384x384.png",
-    "revision": "c30ec65a9f6e9069a17760cf750cda9f"
+    "revision": "3ed39e008de661180bd2103793318eb1"
   },
   {
     "url": "icons/icon-48x48.png",
-    "revision": "b285aa0999af991ce831684181618730"
+    "revision": "a1518deb4009eb6aa7b2b35c2345aabd"
   },
   {
     "url": "icons/icon-512x512.png",
-    "revision": "83803c6f96711ef00e791c4cbdc9c70a"
+    "revision": "ae889b1d7a3dd5f8892722c76d799abb"
   },
   {
     "url": "icons/icon-72x72.png",
-    "revision": "79331da520575a9372537d87a292ac7e"
+    "revision": "ca0c6ef8b56fe2806d87c02472d34140"
   },
   {
     "url": "icons/icon-96x96.png",
-    "revision": "1a909eb19bf2f185dc432889061c56c6"
+    "revision": "331b2859f02b4c30750ad1fdc486eb10"
   },
   {
     "url": "idb-keyval-iife.min.js"
   },
   {
     "url": "index.html",
-    "revision": "dcee0bd8d8a006bb0f83f95384ed13f7"
+    "revision": "d4564ff1f099f103d97d541cd0da4cc5"
   },
   {
     "url": "manifest.webmanifest",
@@ -143,7 +143,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4a4b4725ce20d2a17973cd841e659a93"
+    "revision": "e69e982c15d5416eaab67a96477dbc0b"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -155,7 +155,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "09f5e069232876640eee9699ddd2f506"
+    "revision": "19522ffe60c6a465c9da535f0eda6d36"
   },
   {
     "url": "page-data/dev-404-page/page-data.json",
@@ -323,10 +323,16 @@ self.__precacheManifest = [
     "url": "static/394d4a6d64b33c86aa71e6ec7896c283/ff4be/nodejs.png"
   },
   {
+    "url": "static/670c6adcd1bff4a80d0e4f26dda2d541/91664/icon.png"
+  },
+  {
     "url": "static/670c6adcd1bff4a80d0e4f26dda2d541/a74cd/freelance.png"
   },
   {
     "url": "static/670c6adcd1bff4a80d0e4f26dda2d541/c6edb/freelance.webp"
+  },
+  {
+    "url": "static/670c6adcd1bff4a80d0e4f26dda2d541/e711a/icon.webp"
   },
   {
     "url": "static/6cf8cfb9054331b03758031de453a9ef/1f5c5/fxempire.webp"
@@ -557,24 +563,6 @@ self.__precacheManifest = [
     "url": "static/f8da7516563c19701a34da618d2c6cee/b1497/featurefm.png"
   },
   {
-    "url": "static/fef12faa4a12d201337972388d74b821/0b7e8/icon.webp"
-  },
-  {
-    "url": "static/fef12faa4a12d201337972388d74b821/62cc5/icon.webp"
-  },
-  {
-    "url": "static/fef12faa4a12d201337972388d74b821/adbdf/icon.webp"
-  },
-  {
-    "url": "static/fef12faa4a12d201337972388d74b821/aff39/icon.png"
-  },
-  {
-    "url": "static/fef12faa4a12d201337972388d74b821/c1598/icon.png"
-  },
-  {
-    "url": "static/fef12faa4a12d201337972388d74b821/ea22a/icon.png"
-  },
-  {
     "url": "styles-6b8affa5cc22cb60670e.js"
   },
   {
@@ -582,18 +570,18 @@ self.__precacheManifest = [
     "revision": "1720725fc6619054e7d1014b20e71571"
   },
   {
-    "url": "styles.5fdc3542ab40c4ba9c73.css"
+    "url": "styles.eb68f9287918f1ea85e6.css"
   },
   {
-    "url": "webpack-runtime-42e3a1ef346c14ac63c4.js"
+    "url": "webpack-runtime-bcc4b5bde23acc0ba992.js"
   },
   {
-    "url": "webpack-runtime-42e3a1ef346c14ac63c4.js.map",
-    "revision": "d51b3092ff7c1e84a07e9a50ba681ef5"
+    "url": "webpack-runtime-bcc4b5bde23acc0ba992.js.map",
+    "revision": "6578b3f91c4a876646a704b93dbd32d1"
   },
   {
     "url": "webpack.stats.json",
-    "revision": "6ece0782617b0b11ae56ee316bb32ca2"
+    "revision": "efa2302cc57ee02a5669a2cc9df89668"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
