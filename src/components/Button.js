@@ -16,7 +16,7 @@ const Button = ({ type, className, icon, title, onClick, disabled }) => {
     >
       <div>
         <Icon />
-        <h6>{title}</h6>
+        <h4>{title}</h4>
       </div>
       <div />
     </button>

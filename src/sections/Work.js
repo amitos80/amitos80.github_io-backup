@@ -64,19 +64,19 @@ const Work = () => {
                                         {...node.icon.childImageSharp}
                                     />
                                     <div className="mt-3 flex items-baseline">
-                                        <h6 className="font-semibold">{node.title}</h6>
-                                        <h6 className="text-xs ml-2">({node.period})</h6>
+                                        <h4 className="font-semibold">{node.title}</h4>
+                                        <h4 className="text-xs ml-2">({node.period})</h4>
                                     </div>
-                                    <h6 className="text-sm">{node.subtitle}</h6>
+                                    <h4 className="text-sm">{node.subtitle}</h4>
                                     <div className="mt-2 flex items-center">
                                         <MdLocationOn size="0.75rem" />
-                                        <h6 className="font-semibold text-xs ml-2">
+                                        <h4 className="font-semibold text-xs ml-2">
                                             {node.location}
-                                        </h6>
+                                        </h4>
                                     </div>
-                                    <h6 className="text-xs mt-2">
+                                    <h4 className="text-xs mt-2">
                                         <strong>Specialized in:</strong> {node.specialization}
-                                    </h6>
+                                    </h4>
                                 </div>
                             </div>
                         );

@@ -59,7 +59,7 @@ const Projects = () => {
               />
               <span className="sr-only">{node.title}</span>
             </OutboundLink>
-            <h5 className="mt-4 font-semibold">{node.title}</h5>
+            <h4 className="mt-4 font-semibold">{node.title}</h4>
             <p className="mt-2 pb-5 text-sm text-justify">{node.description}</p>
 
             <p className="pb-2 flex flex-wrap text-xs font-semibold">

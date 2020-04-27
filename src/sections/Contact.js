@@ -75,7 +75,7 @@ const Contact = () => {
 
       <form className="lg:w-2/3 xl:w-1/2">
         <label htmlFor="name" className="w-4/5 md:w-2/3 flex flex-col">
-          <h6 className="font-semibold text-sm mb-2">Full Name</h6>
+          <h4 className="font-semibold text-sm mb-2">Full Name</h4>
           <input
             required
             id="name"
@@ -90,7 +90,7 @@ const Contact = () => {
         </label>
 
         <label htmlFor="email" className="mt-2 w-4/5 md:w-2/3 flex flex-col">
-          <h6 className="font-semibold text-sm mb-2">Email Address</h6>
+          <h4 className="font-semibold text-sm mb-2">Email Address</h4>
           <input
             required
             id="email"
@@ -107,7 +107,7 @@ const Contact = () => {
         </label>
 
         <label htmlFor="message" className="mt-2 flex flex-col">
-          <h6 className="font-semibold text-sm mb-2">Message</h6>
+          <h4 className="font-semibold text-sm mb-2">Message</h4>
           <textarea
             required
             rows="4"

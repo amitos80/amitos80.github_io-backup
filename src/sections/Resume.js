@@ -42,9 +42,9 @@ const Resume = () => {
           </OutboundLink>
         </div>
         <div className="col-span-1 md:col-span-3">
-          <h5 className="text-lg lg:text-xl font-semibold">
-
-          </h5>
+          <h4 className="text-lg lg:text-xl font-semibold">
+            Home Made Resume
+          </h4>
 
           <Button
             className="mt-8"

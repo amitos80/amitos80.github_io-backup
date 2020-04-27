@@ -12,7 +12,10 @@ const Footer = () => {
             <a href="mailto:amitos80@gmail.com?Subject=Freelance project" target="_top"> Email</a>
         </div>
         <div>
-            <a href="tell:972522266878">Call</a>
+          <a href="https://api.whatsapp.com/send?phone=972522266878&text=From:%20my-resume-website">WhatsApp</a>
+        </div>
+        <div>
+          <a href="tell:+972522266878">+972522266878</a>
         </div>
       </div>
     </section>

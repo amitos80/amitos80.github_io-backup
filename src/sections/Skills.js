@@ -46,15 +46,15 @@ const Skills = () => {
                 {...node.icon.childImageSharp}
               />
               <div>
-                <h6 className="text-xs font-semibold leading-none">
+                <h4 className="text-xs font-semibold leading-none">
                   {node.name}
-                </h6>
-                <h6
+                </h4>
+                <h4
                   className="mt-2 leading-none"
                   style={{ fontSize: "0.65rem" }}
                 >
                   ({node.tech})
-                </h6>
+                </h4>
               </div>
             </div>
           </div>
