@@ -6,8 +6,8 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Amit Friedberg's Resume on the Web`,
-    description: `Freelancer Full Stack Web Developer`,
+    title: `Amit Friedberg - Freelancer Full Stack Web Developer`,
+    description: `Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
     author: `Amit Friedberg`,
   },
   plugins: [
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Amit Friedberg's Resume on the Web`,
-        short_name: `Resume on the Web`,
+        name: `Amit Friedberg - Freelancer Full Stack Web Developer`,
+        short_name: `Amit Friedberg's Resume`,
         start_url: '/',
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal[`500`],
