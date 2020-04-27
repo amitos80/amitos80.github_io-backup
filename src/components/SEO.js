@@ -19,14 +19,14 @@ const SEO = () => {
 
   return (
     <Helmet
+
       htmlAttributes={{ lang: "en" }}
       defer={false}
       title={title}
+      link={[
+          { rel: `canonical`, href: `https://amitos80.github.io/` }
+      ]}
       meta={[
-        {
-          name: `canonical`,
-          content: `https://amitos80.github.io/`,
-        },
         {
           name: `description`,
           content: description,
