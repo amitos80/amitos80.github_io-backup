@@ -6,10 +6,10 @@ const SEO = () => {
 
     const site = {
         siteMetadata: {
-            title: '',
-            description: '',
-            author: '',
-            image: ''
+            title: `Amit Friedberg - Freelancer Full Stack Web Developer`,
+            description: `Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
+            author: `Amit Friedberg`,
+            image: 'https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png'
         }
     }
   const title = site.siteMetadata.title;
@@ -45,7 +45,9 @@ const SEO = () => {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `Hey there! I'm Amit Friedberg, I've been a developer for the past 9 Years. I've been a full stack web developer in the music, adtech, fintech industries and as a freelancer ([download cv](https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV)).
+As a developer I always try to come up with the most simple and elegant solution according to the constraints and requirements.
+I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology.`,
         },
         {
           name: `twitter:creator`,
@@ -61,7 +63,7 @@ const SEO = () => {
         },
         {
           name: "twitter:card",
-          content: "summary_large_image",
+          content: "https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png",
         },
       ]}
     />
