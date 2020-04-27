@@ -65,9 +65,19 @@ section:hover .heading {
   @apply transition-default;
 }
 
+.low-opacity {
+    opacity: .6;
+    @apply transition-default;
+}
+
 .grayscale:hover {
   filter: contrast(100%) grayscale(0%);
   @apply transition-default;
+}
+
+.low-opacity:hover {
+    opacity: 1;
+    @apply transition-default;
 }
 
 @screen md {
