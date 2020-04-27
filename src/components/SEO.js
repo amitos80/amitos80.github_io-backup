@@ -24,8 +24,16 @@ const SEO = () => {
       title={title}
       meta={[
         {
+          name: `canonical`,
+          content: `https://amitos80.github.io/`,
+        },
+        {
           name: `description`,
           content: description,
+        },
+        {
+          property: `og:url`,
+          content:  `https://amitos80.github.io/`,
         },
         {
           property: `og:title`,

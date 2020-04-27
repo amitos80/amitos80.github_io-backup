@@ -80,6 +80,18 @@ section:hover .heading {
     @apply transition-default;
 }
 
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
 @screen md {
   html,
   body {

@@ -1,10 +1,4 @@
 ---
-id: "about-me-h1"
----
-
-Freelance Full Stack Web Developer
-
----
 id: "about-me-h2"
 ---
 
