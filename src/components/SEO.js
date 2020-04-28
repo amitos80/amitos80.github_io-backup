@@ -86,7 +86,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                 "url": "https://amitos80.github.io",
                 "name": "Web Applications Development Services",
                 "knowsAbout": "Web Application Development, Front-end development, Back-end Development, React, Vue.js, Riot, Angular, Node.js, Express.js, MongoDB, Mongoose, Express Restify Mongoose, MySQL, Cassandra, HTML, CSS, Javascript",
-                alumni: {
+                 "alumni": {
                     "@type": "Person",
                     "name": "Amit Friedberg"
                 },
