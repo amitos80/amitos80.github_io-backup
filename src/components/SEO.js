@@ -73,8 +73,22 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
           name: "twitter:card",
           content: "https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png",
         },
-      ]}
-    />
+      ]} >
+        <script type="application/ld+json">{`
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://amitos80.github.io",
+            "name": "Full Stack Web Development Services",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+972-52-22-66878",
+                "contactType": "Call/Email",
+                "email": "amitos80@gmail.com",
+                "areaServed": "Worldwide"
+             }
+        `}
+        </script>
+    </Helmet>
   );
 };
 
