@@ -160,7 +160,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "355081f4b6f3ee0166d4d29db53e20e7"
+    "revision": "8cfd224dae49ef6f486b53c8e77638f1"
   },
   {
     "url": "manifest.webmanifest",
@@ -196,7 +196,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap.xml",
-    "revision": "0eb797b3267414f68b10a886388b9625"
+    "revision": "e9c2aabba34a08288dffd0849d9e7d4f"
   },
   {
     "url": "static/03e555e6336ea52b8c891210a52be761/aff39/mta.png"
