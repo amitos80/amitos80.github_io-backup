@@ -120,6 +120,10 @@ self.__precacheManifest = [
     "revision": "f85b605096898e9453bfc50ac66c3f90"
   },
   {
+    "url": "google3336ba03566cc13a.html",
+    "revision": "200a92b74a5bdce65c1d1b003379a1c0"
+  },
+  {
     "url": "icons/icon-144x144.png",
     "revision": "713880dc1e30122674324a5e13019cc2"
   },
@@ -156,7 +160,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "de0e72a509e928ea9085005e927bea42"
+    "revision": "355081f4b6f3ee0166d4d29db53e20e7"
   },
   {
     "url": "manifest.webmanifest",
@@ -189,6 +193,10 @@ self.__precacheManifest = [
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
     "revision": "43232b01cc861c0701a3ece4bd67720b"
+  },
+  {
+    "url": "sitemap.xml",
+    "revision": "0eb797b3267414f68b10a886388b9625"
   },
   {
     "url": "static/03e555e6336ea52b8c891210a52be761/aff39/mta.png"
