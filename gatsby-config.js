@@ -97,13 +97,6 @@ module.exports = {
         purgeOnly: [`src/css/tailwind.css`],
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-headers`,
-      options: {
-          headers: {
-              '/*': ['Content-Language: en-US'],
-          },
-      }
-    }
+    `gatsby-plugin-netlify-headers`
   ],
 };
