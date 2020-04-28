@@ -85,7 +85,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                 "@type": "Organization",
                 "url": "https://amitos80.github.io",
                 "name": "Web Applications Development Services",
-                "knowsAbout": "Web Application Development, Front-end development, Back-end Development, React, Vue.js, Riot, Angular, Node.js, Express.js, MongoDB, Mongoose, Express Restify Mongoose, MySQL, Cassandra, HTML, CSS, Javascript",
+                "knowsAbout": "Frontend, Backend, Javascript, HTML, CSS, React, Vue.js, Node.js, MongoDB, MySQL, Cassandra",
                  "alumni": {
                     "@type": "Person",
                     "name": "Amit Friedberg"
@@ -117,6 +117,62 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                     "name": "Web Applications Development Services"
                 }
             }
+        `}</script>
+        <script type="application/ld+json">{`
+        {
+            "@context": "http://schema.org/",
+            "@type": "Service",
+            "serviceType": "Web Applications Development",
+            "areaServed": "Worldwide",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Web applications development services",
+                "itemListElement": [
+                    {
+                        "@type": "OfferCatalog",
+                        "name": "Portfolio",
+                        "itemListElement": [
+                            {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "Web app for recruiting (HR)",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "alternateName": "Screen shot Lnrd"
+                                 }
+                            },
+                              {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "Web app tracking cyber attacks in organizations networks",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80473801-4fa73000-894f-11ea-8c2d-0e1abe2e4ce4.png",
+                                    "alternateName": "Screen shot ciyot"
+                                 }
+                            },
+                              {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "Music player with multiple streaming providers and real time analytics ",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "alternateName": "Screen shot Feature.Fm"
+                                 }
+                            },
+                              {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "Financial Magazine",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "alternateName": "Screen shot FxEmpire"
+                                 }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
         `}</script>
     </Helmet>
   );
