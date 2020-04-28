@@ -84,7 +84,12 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "url": "https://amitos80.github.io",
-                "name": "Full Stack Web Development Services",
+                "name": "Web Applications Development Services",
+                "knowsAbout": "Web Application Development, Front-end development, Back-end Development, React, Vue.js, Riot, Angular, Node.js, Express.js, MongoDB, Mongoose, Express Restify Mongoose, MySQL, Cassandra, HTML, CSS, Javascript",
+                alumni: {
+                    "@type": "Person",
+                    "name": "Amit Friedberg"
+                },
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "telephone": "+972-52-22-66878",
@@ -109,7 +114,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                 "jobTitle": "Freelancer Full Stack Web Developer",
                 "worksFor": {
                     "@type": "Organization",
-                    "name": "Amit Friedberg Web Dev"
+                    "name": "Web Applications Development Services"
                 }
             }
         `}</script>
