@@ -19,14 +19,19 @@ const SEO = () => {
 
   return (
     <Helmet
-
+//link rel="alternate" href="http://example.com" hreflang="en-us" />
       htmlAttributes={{ lang: "en" }}
       defer={false}
       title={title}
       link={[
-          { rel: `canonical`, href: `https://amitos80.github.io/` }
+          { rel: `canonical`, href: `https://amitos80.github.io/` },
+          { rel: `alternate`, href: `https://amitos80.github.io/`, hreflang: `en-us` }
       ]}
       meta={[
+        {
+          'http-equiv': `content-language`,
+          content: `en-us`,
+        },
         {
           name: `description`,
           content: description,
@@ -75,19 +80,39 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
         },
       ]} >
         <script type="application/ld+json">{`
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://amitos80.github.io",
-            "name": "Full Stack Web Development Services",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+972-52-22-66878",
-                "contactType": "Call/Email",
-                "email": "amitos80@gmail.com",
-                "areaServed": "Worldwide"
-             }
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "url": "https://amitos80.github.io",
+                "name": "Full Stack Web Development Services",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+972-52-22-66878",
+                    "contactType": "Call/Email",
+                    "email": "amitos80@gmail.com",
+                    "areaServed": "Worldwide"
+                }
+            }
         `}
         </script>
+        <script type="application/ld+json">{`
+            {
+                "@context": "https://schema.org/",
+                "@type": "Person",
+                "name": "Amit Friedberg",
+                "url": "https://amitos80.github.io/",
+                "image": "https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png",
+                "sameAs": [
+                    "https://www.instagram.com/amitfriedberg",
+                    "https://www.facebook.com/amit.friedberg"
+                ],
+                "jobTitle": "Freelancer Full Stack Web Developer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Amit Friedberg Web Dev"
+                }
+            }
+        `}</script>
     </Helmet>
   );
 };
