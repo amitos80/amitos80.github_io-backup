@@ -16,6 +16,9 @@ const SEO = () => {
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
   const image = site.siteMetadata.image;
+  const profilePicture = `"https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png"`;
+  const siteScreenshot = `"https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png"`;
+  // const cvImage = `"https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png"`;
 
   const orgName = '"Freelancer Web Applications Developer"';
   const skills = '"Frontend development, Backend development, Javascript, HTML, CSS, React, Vue.js, Node.js, MongoDB, MySQL, Cassandra, Software Development, Building web apps, Freelancer developer"';
@@ -75,7 +78,7 @@ const SEO = () => {
         },
         {
           property: "og:image",
-          content: image,
+          content: siteScreenshot,
         },
         {
           name: `twitter:card`,
@@ -97,7 +100,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
         },
         {
           name: "twitter:card",
-          content: "https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png",
+          content: siteScreenshot
         },
       ]} >
         <script type="application/ld+json">{`
@@ -128,7 +131,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                         "genre": ${skills},
                         "headline": "Freelancer full stack web developer",
                         "text": "Fast, responsive, modern web applications development. Amit Friedberg Full Stack Web Developer",
-                        "thumbnailUrl": "https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png"
+                        "thumbnailUrl": ${siteScreenshot}
                     }
                 }
             }
