@@ -5,8 +5,8 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://amitos80.github.io</loc>
-        <lastmod>2020-04-28</lastmod>
+        <loc>https://amitos80.github.io/</loc>
+        <lastmod>2020-04-29</lastmod>
         <changefreq>daily</changefreq>
     </url>
 </urlset>
