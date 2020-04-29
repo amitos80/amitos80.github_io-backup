@@ -17,6 +17,27 @@ const SEO = () => {
   const author = site.siteMetadata.author;
   const image = site.siteMetadata.image;
 
+  const orgName = '"Freelancer Web Applications Developer"';
+  const skills = '"Frontend development, Backend development, Javascript, HTML, CSS, React, Vue.js, Node.js, MongoDB, MySQL, Cassandra, Software Development, Building web apps, Freelancer developer"';
+
+  const person = `{
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Amit Friedberg",
+    "url": "https://amitos80.github.io/",
+    "image": "https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png",
+    "sameAs": [
+        "https://www.instagram.com/amitfriedberg",
+        "https://www.facebook.com/amit.friedberg"
+    ],
+    "jobTitle": "Freelancer Full Stack Web Developer",
+    "worksFor": {
+        "@type": "Organization",
+        "name": ${orgName}
+    }
+  }`;
+
+
   return (
     <Helmet
 //link rel="alternate" href="http://example.com" hreflang="en-us" />
@@ -84,39 +105,37 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "url": "https://amitos80.github.io",
-                "name": "Web Applications Development Services",
-                "knowsAbout": "Frontend, Backend, Javascript, HTML, CSS, React, Vue.js, Node.js, MongoDB, MySQL, Cassandra",
-                 "alumni": {
-                    "@type": "Person",
-                    "name": "Amit Friedberg"
-                },
+                "name": ${orgName},
+                "alumni": ${person},
+                "funder": ${person},
+                "knowsAbout": ${skills},
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "telephone": "+972-52-22-66878",
-                    "contactType": "Call/Email",
+                    "contactType": "Call/Email/WhatsApp",
                     "email": "amitos80@gmail.com",
                     "areaServed": "Worldwide"
+                },
+                "location": {
+                    "@type": "VirtualLocation",
+                    "alternateName": "Freelancer Web Developer - https://amitos80.github.io",
+                    "description": "Freelancer web developer resume and portfolio",
+                    "subjectOf": {
+                        "@type": "CreativeWork",
+                        "creator": ${person},
+                        "funder": ${person},
+                        "maintainer": ${person},
+                        "genre": ${skills},
+                        "headline": "Freelancer full stack web developer",
+                        "text": "Fast, responsive, modern web applications development. Amit Friedberg Full Stack Web Developer",
+                        "thumbnailUrl": "https://user-images.githubusercontent.com/1379356/80622301-47371e00-8a51-11ea-856e-88bb250cdfd7.png"
+                    }
                 }
             }
         `}
         </script>
         <script type="application/ld+json">{`
-            {
-                "@context": "https://schema.org/",
-                "@type": "Person",
-                "name": "Amit Friedberg",
-                "url": "https://amitos80.github.io/",
-                "image": "https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png",
-                "sameAs": [
-                    "https://www.instagram.com/amitfriedberg",
-                    "https://www.facebook.com/amit.friedberg"
-                ],
-                "jobTitle": "Freelancer Full Stack Web Developer",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Web Applications Development Services"
-                }
-            }
+           ${person}
         `}</script>
         <script type="application/ld+json">{`
         {
@@ -126,7 +145,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
             "areaServed": "Worldwide",
             "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Web applications development services",
+                "name": ${orgName},
                 "itemListElement": [
                     {
                         "@type": "OfferCatalog",
@@ -147,7 +166,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                                     "@type": "ImageObject",
                                     "name": "Web app tracking cyber attacks in organizations networks",
                                     "url": "https://user-images.githubusercontent.com/1379356/80473801-4fa73000-894f-11ea-8c2d-0e1abe2e4ce4.png",
-                                    "alternateName": "Screen shot ciyot"
+                                    "alternateName": "Screen shot cyiot"
                                  }
                             },
                               {
