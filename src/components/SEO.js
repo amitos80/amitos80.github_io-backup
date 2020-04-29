@@ -153,7 +153,6 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                         "itemListElement": [
                             {
                                 "@type": "Offer",
-                                "position": 1,
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "Web app for smart recruiting employees",
