@@ -128,7 +128,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                         "genre": ${skills},
                         "headline": "Freelancer full stack web developer",
                         "text": "Fast, responsive, modern web applications development. Amit Friedberg Full Stack Web Developer",
-                        "thumbnailUrl": "https://user-images.githubusercontent.com/1379356/80622301-47371e00-8a51-11ea-856e-88bb250cdfd7.png"
+                        "thumbnailUrl": "https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png"
                     }
                 }
             }
@@ -153,38 +153,48 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Soft
                         "itemListElement": [
                             {
                                 "@type": "Offer",
+                                "position": 1,
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Web app for recruiting (HR)",
+                                    "name": "Web app for smart recruiting employees",
                                     "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
                                     "alternateName": "Screen shot Lnrd"
                                  }
                             },
-                              {
+                            {
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Web app tracking cyber attacks in organizations networks",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80473801-4fa73000-894f-11ea-8c2d-0e1abe2e4ce4.png",
-                                    "alternateName": "Screen shot cyiot"
-                                 }
-                            },
-                              {
-                                "@type": "Offer",
-                                "image": {
-                                    "@type": "ImageObject",
-                                    "name": "Music player with multiple streaming providers and real time analytics ",
+                                    "name": "Music player with multiple streaming providers and real time analytics (https://feature.fm)",
                                     "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
                                     "alternateName": "Screen shot Feature.Fm"
                                  }
                             },
-                              {
+                            {
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Financial Magazine",
+                                    "name": "Financial Magazine (https://www.fxempire.com/)",
                                     "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
                                     "alternateName": "Screen shot FxEmpire"
+                                 }
+                            },
+                            {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "My resume and portfolio web site",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png",
+                                    "alternateName": "Screen shot resume and portfolio web site"
+                                 }
+                            },
+                            {
+                                "@type": "Offer",
+                                "image": {
+                                    "@type": "ImageObject",
+                                    "name": "Cyiot at Orchestra group tel aviv",
+                                    "url": "https://user-images.githubusercontent.com/1379356/80473801-4fa73000-894f-11ea-8c2d-0e1abe2e4ce4.png",
+                                    "alternateName": "Screen shot Cyiot at Orchestra group tel aviv"
                                  }
                             }
                         ]
