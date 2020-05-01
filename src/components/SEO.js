@@ -15,8 +15,8 @@ const SEO = () => {
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
-  const image = site.siteMetadata.image;
-  const profilePicture = `"https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png"`;
+  // const image = site.siteMetadata.image;
+  // const profilePicture = `"https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png"`;
   const siteScreenshot = `"https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png"`;
   // const cvImage = `"https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png"`;
 
@@ -39,6 +39,26 @@ const SEO = () => {
         "name": ${orgName}
     }
   }`;
+
+  const contactPoint = `{
+    "@type": "ContactPoint",
+        "telephone": "+972-52-22-66878",
+        "contactType": "Call/Email/WhatsApp",
+        "email": "amitos80@gmail.com",
+        "areaServed": "Worldwide"
+    }`;
+
+  /*
+     add to Service
+     "serviceUrl": "https://amitos80.github.io/",
+     "servicePhone": ${contactPoint},
+     "serviceSmsNumber": ${contactPoint},
+"servicePhone": "+972522266878",
+     "audience": {
+                "@type": "Audience",
+                "audience": "Startup companies, Tech companies, Tech entrepreneurs, HR recruiters, Software companies, Small businesses"
+            },
+  */
 
 
   return (
@@ -112,12 +132,12 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                 "alumni": ${person},
                 "funder": ${person},
                 "knowsAbout": ${skills},
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "telephone": "+972-52-22-66878",
-                    "contactType": "Call/Email/WhatsApp",
-                    "email": "amitos80@gmail.com",
-                    "areaServed": "Worldwide"
+                "contactPoint": ${contactPoint},
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Israel",
+                    "addressLocality": "Tel-Aviv",
+                    "addressRegion": "Tel-Aviv"
                 },
                 "location": {
                     "@type": "VirtualLocation",
