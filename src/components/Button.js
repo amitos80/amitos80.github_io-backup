@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./Button.module.css";
 import ThemeContext from "../context/ThemeContext";
 
-const Button = ({ type, className, icon, title, onClick, disabled }) => {
+const Button = ({ type, className, icon, title, onClick, disabled, ...rest }) => {
   const { dark } = useContext(ThemeContext);
   const Icon = icon;
 
@@ -13,6 +13,7 @@ const Button = ({ type, className, icon, title, onClick, disabled }) => {
       onClick={onClick}
       disabled={disabled}
       className={`${styles.container} ${className} ${!dark && styles.light}`}
+      {...rest}
     >
       <div>
         <Icon />

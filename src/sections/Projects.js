@@ -69,44 +69,14 @@ const Projects = () => {
                 </span>
               ))}
             </p>
-
-            <div className="flex mt-2">
-              {node.website && (
-                <OutboundLink
-                  href={node.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-2 mr-2"
-                  data-tip="Go to Website"
-                  data-place="bottom"
-                >
-                  <FaLink />
-                  <span className="sr-only">Go to Website</span>
-                </OutboundLink>
-              )}
-
-              {node.github && (
-                <OutboundLink
-                  href={node.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-2 mr-2"
-                  data-tip="Go to GitHub Repo"
-                  data-place="bottom"
-                >
-                  <FaGithub />
-                  <span className="sr-only">Go to GitHub Repo</span>
-                </OutboundLink>
-              )}
-            </div>
           </div>
         ))}
       </div>
 
       <Button
-        className="mt-6"
+        className="mt-6 clear-button"
         icon={FaGithub}
-        title="Projects on GitHub"
+        title="My GitHub"
         onClick={() => window.open("https://github.com/amitos80", "_blank")}
       />
     </section>
