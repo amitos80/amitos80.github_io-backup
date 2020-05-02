@@ -74,6 +74,7 @@ const Navigation = () => {
       >
         <GatsbyImage
           alt="website icon"
+          title="website icon"
           loading="lazy"
           className="low-opacity"
           {...data.icon.childImageSharp}

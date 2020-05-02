@@ -56,6 +56,7 @@ const Projects = () => {
               <GatsbyImage
                 loading="lazy"
                 alt={node.alt}
+                title={node.alt}
                 className="absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200"
                 {...node.image.childImageSharp}
               />

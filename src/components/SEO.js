@@ -9,7 +9,7 @@ const SEO = ({ location = '/' }) => {
     const meta = {
         '/': {
             siteMetadata: {
-                title: `Amit Friedberg - Tel-Aviv based Freelancer Full Stack Web Developer`,
+                title: `Amit Friedberg Tel-Aviv based Freelance Full Stack Web Developer`,
                 description: `Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/site-screenshot.png"`
@@ -17,7 +17,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/resume/': {
             siteMetadata: {
-                title: `Freelancer Full Stack Web Developer Online Résumé`,
+                title: `Freelance Full Stack Web Developer Online Résumé`,
                 description: `Online Résumé CV of a Tel-Aviv based Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/resume-screenshot.png"`
@@ -25,7 +25,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/about/': {
             siteMetadata: {
-                title: `About Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
+                title: `About Amit Friedberg Tel-Aviv based Freelance Web Developer`,
                 description: `About me Bio of Amit Friedberg Tel-Aviv based  Freelancer Full Stack Web Developer`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/about-screenshot.png"`
@@ -33,7 +33,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/experience/': {
             siteMetadata: {
-                title: `About Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer proven experience`,
+                title: `Amit Friedberg Tel-Aviv based Freelance Full Stack Web Developer proven experience`,
                 description: `Professional experience of  Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/experience-screenshot.png"`
@@ -41,7 +41,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/projects/': {
             siteMetadata: {
-                title: `Projects Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer took part in`,
+                title: `Projects Amit Friedberg Freelance Web Developer worked on`,
                 description: `Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer Projects list`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/projects-screenshot.png"`
@@ -49,7 +49,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/skills/': {
             siteMetadata: {
-                title: `Skills of Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
+                title: `Skills of Amit Friedberg Freelance Full Stack Web Developer`,
                 description: `Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer Skills list`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/skills-screenshot.png"`

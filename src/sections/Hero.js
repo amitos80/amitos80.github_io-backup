@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-5 row-gap-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
         <div ref={parallaxRef} className="col-span-2">
           <div style={{ width: '200px' }} className="mx-auto" data-depth="0.4">
-            <GatsbyImage alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
+            <GatsbyImage title="profile photo" alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
               <div style={{ width: '138px' }} className="mx-auto h-6 my-6">
                   {showSocial && <Social />}
               </div>

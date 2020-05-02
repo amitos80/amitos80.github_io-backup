@@ -58,6 +58,7 @@ const Education = () => {
                     loading="lazy"
                     className="w-8 h-8"
                     alt={node.alt}
+                    title={node.alt}
                     {...node.icon.childImageSharp}
                   />
                   <h4 className="mt-3 font-semibold">{node.title}</h4>
