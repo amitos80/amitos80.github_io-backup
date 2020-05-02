@@ -46,11 +46,11 @@ self.__precacheManifest = [
   },
   {
     "url": "404.html",
-    "revision": "e999cde882d232567d1ef9bd065221b5"
+    "revision": "b75982b1b94942280095e37dd907ab42"
   },
   {
     "url": "404/index.html",
-    "revision": "524ef357aacfa60de44c03b780d4a1ca"
+    "revision": "dd9b4082c0804b748cfbe27b7a60c7c8"
   },
   {
     "url": "95b64a6e-7df4b477ec432349209d.js"
@@ -61,18 +61,22 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "441d3fcd716c4017cf0d00b37d538a6a"
+    "revision": "06ccc68c6855574fb5bc117a641f7ac6"
   },
   {
-    "url": "app-bfb76851bd973ad470ed.js"
+    "url": "app-693f5d1beaf3d1ea25be.js"
   },
   {
-    "url": "app-bfb76851bd973ad470ed.js.map",
-    "revision": "ba20b0006c8f9227bb43fb88314b3a86"
+    "url": "app-693f5d1beaf3d1ea25be.js.map",
+    "revision": "6737f83cdc046c175ccc4b835fc62a57"
   },
   {
     "url": "chunk-map.json",
-    "revision": "e5fce5916214813d0f9154ff363b0ca5"
+    "revision": "6bdf4bd51c72ea4e7eb2159c43a23b38"
+  },
+  {
+    "url": "ciyot.png",
+    "revision": "ab327704e52525135a3694a8a432c6db"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-18b9bd78e89bbe4752a5.js"
@@ -89,131 +93,58 @@ self.__precacheManifest = [
     "revision": "f3c2f59e70f621e379afc2ba8eb4fea1"
   },
   {
-    "url": "component---src-pages-about-js-aa5d45517796c77504ec.js"
+    "url": "component---src-pages-about-js-b3925a8f0a058c896af1.js"
   },
   {
-    "url": "component---src-pages-about-js-aa5d45517796c77504ec.js.map",
-    "revision": "234922217077e68692f8bd5dbdb56b83"
+    "url": "component---src-pages-about-js-b3925a8f0a058c896af1.js.map",
+    "revision": "5f57917d31419101098d690d9e3bcba7"
   },
   {
-    "url": "component---src-pages-about-js-c7fd7fe38caada7f05df.js"
+    "url": "component---src-pages-experience-js-53e3e73f75badeb9820c.js"
   },
   {
-    "url": "component---src-pages-about-js-c7fd7fe38caada7f05df.js.map",
-    "revision": "fe0bdb686b2065995647747afc289042"
+    "url": "component---src-pages-experience-js-53e3e73f75badeb9820c.js.map",
+    "revision": "8f41d696c4e1ff09d5f059bb7c3d95eb"
   },
   {
-    "url": "component---src-pages-experience-js-28ce60f0e6b09c0f1859.js"
+    "url": "component---src-pages-index-js-e2ab9d07e1f259d58240.js"
   },
   {
-    "url": "component---src-pages-experience-js-28ce60f0e6b09c0f1859.js.map",
-    "revision": "ae6488d192646ddfea0a8598c1ab794c"
+    "url": "component---src-pages-index-js-e2ab9d07e1f259d58240.js.map",
+    "revision": "fee3532f761819f99fdb4d0a4f6b9873"
   },
   {
-    "url": "component---src-pages-experience-js-4f66f177813898c12cbc.js"
+    "url": "component---src-pages-projects-js-846a236eb235329e0d28.js"
   },
   {
-    "url": "component---src-pages-experience-js-4f66f177813898c12cbc.js.map",
-    "revision": "40304560399b78f5f97c0b8158504e4c"
+    "url": "component---src-pages-projects-js-846a236eb235329e0d28.js.map",
+    "revision": "bac40acdc33fa3935aad51c1569b7e76"
   },
   {
-    "url": "component---src-pages-index-js-2407a9c8710eadd3e5f7.js"
+    "url": "component---src-pages-resume-js-d7bcf186b0a35653a0a0.js"
   },
   {
-    "url": "component---src-pages-index-js-2407a9c8710eadd3e5f7.js.map",
-    "revision": "9f27275cdd285e297c96c25ff461ed40"
+    "url": "component---src-pages-resume-js-d7bcf186b0a35653a0a0.js.map",
+    "revision": "1af258d041eb749031fe81f2534fb431"
   },
   {
-    "url": "component---src-pages-index-js-306925c50294433da8f3.js"
+    "url": "component---src-pages-skills-js-35227a6462b66d5e0a4d.js"
   },
   {
-    "url": "component---src-pages-index-js-306925c50294433da8f3.js.map",
-    "revision": "042843054df9358e56f35580e4f18442"
-  },
-  {
-    "url": "component---src-pages-index-js-431d9f394c2f713ad6dd.js"
-  },
-  {
-    "url": "component---src-pages-index-js-431d9f394c2f713ad6dd.js.map",
-    "revision": "e180a46eff243c30116b4df3de94f671"
-  },
-  {
-    "url": "component---src-pages-index-js-c331130043f062a65c49.js"
-  },
-  {
-    "url": "component---src-pages-index-js-c331130043f062a65c49.js.map",
-    "revision": "0d5e6694eb7be9e9aec9705e4c7121a0"
-  },
-  {
-    "url": "component---src-pages-projects-js-008ae986686e186e3505.js"
-  },
-  {
-    "url": "component---src-pages-projects-js-008ae986686e186e3505.js.map",
-    "revision": "1dc3268ba9e3adc03d8e48f9b6c5787b"
-  },
-  {
-    "url": "component---src-pages-projects-js-7214ffcf7d790ae695cd.js"
-  },
-  {
-    "url": "component---src-pages-projects-js-7214ffcf7d790ae695cd.js.map",
-    "revision": "d9955881e4dab5d9713e97a6088a7240"
-  },
-  {
-    "url": "component---src-pages-projects-js-9a310137c345454be93f.js"
-  },
-  {
-    "url": "component---src-pages-projects-js-9a310137c345454be93f.js.map",
-    "revision": "cc1268cfe46ae19de3bd599f0b406d6e"
-  },
-  {
-    "url": "component---src-pages-projects-js-ac6126ef304ca85ef1ce.js"
-  },
-  {
-    "url": "component---src-pages-projects-js-ac6126ef304ca85ef1ce.js.map",
-    "revision": "2b0df7338b43c5f21d80e6a92a08e13f"
-  },
-  {
-    "url": "component---src-pages-resume-js-bfa93f0423564167b9ed.js"
-  },
-  {
-    "url": "component---src-pages-resume-js-bfa93f0423564167b9ed.js.map",
-    "revision": "e27a03763a073b8c0f0ccef48c257abc"
-  },
-  {
-    "url": "component---src-pages-resume-js-c8e96bc534ced1e9231c.js"
-  },
-  {
-    "url": "component---src-pages-resume-js-c8e96bc534ced1e9231c.js.map",
-    "revision": "1093a789ab6b55841cb2c38d5bcc4ea5"
-  },
-  {
-    "url": "component---src-pages-resume-js-e6a682823ddd58373ca1.js"
-  },
-  {
-    "url": "component---src-pages-resume-js-e6a682823ddd58373ca1.js.map",
-    "revision": "2a6977dc04a70e0fa9c4ccb1881fce80"
-  },
-  {
-    "url": "component---src-pages-skills-js-5fc4cf0585f09c5f569b.js"
-  },
-  {
-    "url": "component---src-pages-skills-js-5fc4cf0585f09c5f569b.js.map",
-    "revision": "9844305c9c8082d862cf6d15d01e969e"
-  },
-  {
-    "url": "component---src-pages-skills-js-a7a4e68c8714920a72c6.js"
-  },
-  {
-    "url": "component---src-pages-skills-js-a7a4e68c8714920a72c6.js.map",
-    "revision": "a3163842a790df6ec7c77e88f3501054"
+    "url": "component---src-pages-skills-js-35227a6462b66d5e0a4d.js.map",
+    "revision": "39ce450a4f2a00c35ecf4bd4cf2392d0"
   },
   {
     "url": "experience/index.html",
-    "revision": "b90f6a1a42adbb7e390c5c0552b4fa7a"
+    "revision": "800473aa315d8cc484a1f0d7de24f206"
   },
   {
     "url": "favicon-32x32.png",
     "revision": "c13d7de135016ba6486216b8ccde004d"
+  },
+  {
+    "url": "ffm-player.png",
+    "revision": "0c1935335c89dc37774e49a4c69bfd41"
   },
   {
     "url": "framework-8145bab88101e522accb.js"
@@ -221,6 +152,10 @@ self.__precacheManifest = [
   {
     "url": "framework-8145bab88101e522accb.js.map",
     "revision": "23ab39e28a76c003debb42b7b0bf0cdb"
+  },
+  {
+    "url": "fxempire.png",
+    "revision": "6cf8cfb9054331b03758031de453a9ef"
   },
   {
     "url": "google3336ba03566cc13a.html",
@@ -263,15 +198,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "49bc787cc2057291ab13b72fd769b153"
+    "revision": "c973d3a7ea1f59750194902cdfa5c852"
+  },
+  {
+    "url": "lnrd.png",
+    "revision": "3474bed81a25ff7ab8d0206e2b60ca3f"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ebd0b8c563d06a627651279018ab33f2"
+    "revision": "7da23ac2fc28debfc4b22c64a1727654"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9f8f94dc8fcf4215a66b6880739a7bc3"
+    "revision": "068a420b8182d7aad415ab248d9f21e9"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -287,7 +226,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "76eb5f6e449c19db59aa3b62ed8a0902"
+    "revision": "31e939852c27cde80339816af4456b84"
   },
   {
     "url": "page-data/dev-404-page/page-data.json",
@@ -318,16 +257,24 @@ self.__precacheManifest = [
     "revision": "dbf2fd7aa7f4f498c1114a4c6794b5f9"
   },
   {
+    "url": "profile.png",
+    "revision": "aec40c5d062faba36e6e805e0c1a7dd6"
+  },
+  {
     "url": "projects/index.html",
-    "revision": "bf3dd5d101e0ba55d11e1f11866faf73"
+    "revision": "b2502e3042d58b981dab44787441d310"
   },
   {
     "url": "resume/index.html",
-    "revision": "e764efd7ede59de10e5d6ea43c997bcf"
+    "revision": "8952e19fa834cd09f2980f28ffb40dd4"
   },
   {
     "url": "robots.txt",
     "revision": "0055a8ec56a7e1a59c390981ba6c6ef8"
+  },
+  {
+    "url": "site-screenshot.png",
+    "revision": "b7c304ed54d1ae14cae97bda800bf149"
   },
   {
     "url": "sitemap.xml",
@@ -339,7 +286,7 @@ self.__precacheManifest = [
   },
   {
     "url": "skills/index.html",
-    "revision": "0930263190adda7a082335f3990f3f6c"
+    "revision": "fdced4444d70119bb3ed45d0f800d533"
   },
   {
     "url": "static/03e555e6336ea52b8c891210a52be761/aff39/mta.png"
@@ -739,39 +686,18 @@ self.__precacheManifest = [
     "revision": "1720725fc6619054e7d1014b20e71571"
   },
   {
-    "url": "styles.750fea70410fc2d7ec44.css"
+    "url": "styles.7d659acb735d0aaefe76.css"
   },
   {
-    "url": "webpack-runtime-22d2f3f97517f94b3b5c.js"
+    "url": "webpack-runtime-bbdba325b6049500a721.js"
   },
   {
-    "url": "webpack-runtime-22d2f3f97517f94b3b5c.js.map",
-    "revision": "892cd7358a2f42edebf3da54df567958"
-  },
-  {
-    "url": "webpack-runtime-948596307071f68f52f5.js"
-  },
-  {
-    "url": "webpack-runtime-948596307071f68f52f5.js.map",
-    "revision": "a5ffc5e4979979aad0d810e21ef69d1a"
-  },
-  {
-    "url": "webpack-runtime-b7fb640347a43e8809ee.js"
-  },
-  {
-    "url": "webpack-runtime-b7fb640347a43e8809ee.js.map",
-    "revision": "f84882b3c0eb326750fecdff5cda4a5a"
-  },
-  {
-    "url": "webpack-runtime-c8b03c7d4e4ec94875bc.js"
-  },
-  {
-    "url": "webpack-runtime-c8b03c7d4e4ec94875bc.js.map",
-    "revision": "cc629672fc4f938f21689701fb62accc"
+    "url": "webpack-runtime-bbdba325b6049500a721.js.map",
+    "revision": "ef0f1dbfb49b893aef1f381040c1d162"
   },
   {
     "url": "webpack.stats.json",
-    "revision": "5e020cf6c98eaf7b3ad6430fff4afbce"
+    "revision": "8752944ddcd45b1eb0867b59152dfcaa"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -864,7 +790,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-bfb76851bd973ad470ed.js`))) {
+  if (!resources || !(await caches.match(`/app-693f5d1beaf3d1ea25be.js`))) {
     return await fetch(event.request)
   }
 
