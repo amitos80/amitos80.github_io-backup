@@ -97,6 +97,7 @@ module.exports = {
         purgeOnly: [`src/css/tailwind.css`],
       },
     },
+    `gatsby-plugin-minify`,
     `gatsby-plugin-netlify-headers`
   ],
 };

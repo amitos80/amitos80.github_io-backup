@@ -35,6 +35,7 @@ const Resume = ({ expended = false }) => {
           >
             <FaLink className="absolute" color="#FFF" size="5rem" />
             <GatsbyImage
+              alt="Amit Friedberg Resume CV"
               loading="lazy"
               className="absolute w-full h-64 md:h-48 lg:h-64 object-cover rounded-lg hover:opacity-50 duration-200"
               imgStyle={{ objectPosition: "top" }}
@@ -98,6 +99,7 @@ const Resume = ({ expended = false }) => {
                 >
                     <FaLink className="absolute" color="#FFF" size="5rem" />
                     <GatsbyImage
+                        alt="Amit Friedberg Resume CV"
                         loading="lazy"
                         className="absolute w-full h-64 md:h-48 lg:h-64 object-cover rounded-lg hover:opacity-50 duration-200"
                         imgStyle={{ objectPosition: "top" }}

@@ -16,6 +16,7 @@ const Education = () => {
             title
             subtitle
             period
+            alt
             icon {
               childImageSharp {
                 fixed(width: 32, height: 32) {
@@ -56,6 +57,7 @@ const Education = () => {
                   <GatsbyImage
                     loading="lazy"
                     className="w-8 h-8"
+                    alt={node.alt}
                     {...node.icon.childImageSharp}
                   />
                   <h4 className="mt-3 font-semibold">{node.title}</h4>

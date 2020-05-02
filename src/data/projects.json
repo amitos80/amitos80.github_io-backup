@@ -27,12 +27,14 @@
             "3rd-party-integrations"
         ],
         "website": "https://test.ffm.to/ejwojka-advanced",
+        "alt": "FeatureFm smartlink page screenshot",
         "github": ""
     },
     {
         "image": "../images/projects/ciyot.png",
         "title": "Cyiot at Harmony Group",
         "description": "",
+        "alt": "Cyity app screenshot",
         "tags": [
             "vuejs",
             "vuex",
@@ -46,6 +48,7 @@
     {
         "image": "../images/projects/fxempire.png",
         "title": "FXEmpire",
+        "alt": "FXEmpire website screenshot",
         "description": "",
         "tags": [
             "react",

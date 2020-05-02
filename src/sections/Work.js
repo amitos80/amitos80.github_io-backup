@@ -18,6 +18,7 @@ const Work = () => {
             title
             subtitle
             period
+            alt
             location
             specialization
             icon {
@@ -59,6 +60,7 @@ const Work = () => {
                                 />
                                 <div className="ml-8">
                                     <GatsbyImage
+                                        alt={node.alt}
                                         loading="lazy"
                                         className="w-auto h-8 object-contain"
                                         {...node.icon.childImageSharp}
