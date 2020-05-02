@@ -34,7 +34,7 @@ const writeFile = (path, str) => {
     const writeStream = fs.createWriteStream(path);
     writeStream.write(str, 'utf-8');
     writeStream.on('finish', () => {
-        console.log('sitemap created');
+        console.log('sitemap created at ', path);
     });
     writeStream.end();
 };
