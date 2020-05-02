@@ -18,7 +18,7 @@ const SEO = ({ location = '/' }) => {
         '/resume/': {
             siteMetadata: {
                 title: `Freelance Full Stack Web Developer Online Résumé`,
-                description: `Online Résumé CV of a Tel-Aviv based Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
+                description: `Résumé CV - Tel-Aviv based Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/resume-screenshot.png"`
             }
@@ -33,7 +33,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/experience/': {
             siteMetadata: {
-                title: `Amit Friedberg Tel-Aviv based Freelance Full Stack Web Developer proven experience`,
+                title: `Amit Friedberg Tel-Aviv based Freelance Web Developer experience`,
                 description: `Professional experience of  Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/experience-screenshot.png"`
