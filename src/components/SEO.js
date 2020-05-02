@@ -143,7 +143,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                     "postalCode": "6433222",
                     "streetAddress":"Dizengoff 50",
                     "alternateName": "Tel-Aviv based Freelancer Web Developer - https://amitos80.github.io",
-                    "description": "Tel-Aviv based  Freelancer web developer resume and portfolio"
+                    "description": "Tel-Aviv based Freelancer web developer resume and portfolio"
                 },
                 "address": {
                     "@type": "PostalAddress",
