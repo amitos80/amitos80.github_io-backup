@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 const IndexPage = () => {
   return (
-    <Wrapper>
+    <Wrapper location={`/resume`} crumbLabel=" Resume">
       <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
         <Hero />
         <Resume expended={true} />

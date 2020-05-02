@@ -97,6 +97,17 @@ module.exports = {
         purgeOnly: [`src/css/tailwind.css`],
       },
     },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+          defaultCrumb: {
+              location: {
+                  pathname: `/`,
+              },
+              crumbSeparator: " > ",
+          }
+      }
+    },
     `gatsby-plugin-minify`,
     `gatsby-plugin-netlify-headers`
   ],

@@ -23,7 +23,7 @@ const Resume = ({ expended = false }) => {
 
   return (
     <section id="resume">
-      <Heading icon={IoIosDocument} title="Resume" />
+      <Heading icon={IoIosDocument} title="Résumé" />
 
       {!expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">

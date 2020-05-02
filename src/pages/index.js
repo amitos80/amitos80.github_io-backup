@@ -13,7 +13,7 @@ import styles from "./index.module.css";
 
 const IndexPage = () => {
   return (
-    <Wrapper>
+    <Wrapper location={`/`} crumbLabel="Home">
       <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
         <Hero />
         <AboutMe />
