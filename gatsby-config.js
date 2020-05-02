@@ -73,6 +73,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+          useAutoGen: true
+      }
+    },
+    {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `amitfriedberg`,
@@ -96,17 +102,6 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/css/tailwind.css`],
       },
-    },
-    {
-      resolve: `gatsby-plugin-breadcrumb`,
-      options: {
-          defaultCrumb: {
-              location: {
-                  pathname: `/`,
-              },
-              crumbSeparator: " > ",
-          }
-      }
     },
     `gatsby-plugin-minify`,
     `gatsby-plugin-netlify-headers`

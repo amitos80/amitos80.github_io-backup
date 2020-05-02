@@ -10,10 +10,13 @@ import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
 import Work from "../sections/Work";
 import styles from "./index.module.css";
+import PropTypes from 'prop-types';
 
-const IndexPage = () => {
+const IndexPage = ({ pageContext }) => {
+    console.log('pageContext -> ', pageContext);
+
   return (
-    <Wrapper location={`/`} crumbLabel="Home">
+    <Wrapper breaddata={pageContext.breadcrumb}>
       <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
         <Hero />
         <AboutMe />
@@ -29,6 +32,10 @@ const IndexPage = () => {
       </div>
     </Wrapper>
   );
+};
+
+IndexPage.propTypes = {
+    pageContext: PropTypes.object
 };
 
 export default IndexPage;

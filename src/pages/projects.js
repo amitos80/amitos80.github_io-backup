@@ -4,10 +4,12 @@ import Footer from "../sections/Footer";
 import Hero from "../sections/Hero";
 import Projects from "../sections/Projects";
 import styles from "./index.module.css";
+import PropTypes from 'prop-types'
 
-const IndexPage = () => {
+const IndexPage = ({ pageContext }) => {
+    console.log('pageContext -> ', pageContext);
   return (
-    <Wrapper location={`/projects`} crumbLabel=" Projects">
+    <Wrapper breaddata={pageContext.breadcrumb}>
       <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
         <Hero />
         <Projects />
@@ -15,6 +17,10 @@ const IndexPage = () => {
       </div>
     </Wrapper>
   );
+};
+
+IndexPage.propTypes = {
+    pageContext: PropTypes.object
 };
 
 export default IndexPage;

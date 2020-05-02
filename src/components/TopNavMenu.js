@@ -9,8 +9,8 @@ const TopNavMenu = () => {
             { href:'/projects', text: 'Projects'},
             { href:'/skills', text: 'Skills'},
             { href:'/experience', text: 'Experience'},
-            { href:'/about', text: 'About'},
             { href:'/resume', text: 'Résumé'},
+            { href:'/about', text: 'About'}
         ].map((item, key) => (
                 <Link to={item.href} className="text-md mr-10 font-semibold" key={key}>{item.text}</Link>
             )

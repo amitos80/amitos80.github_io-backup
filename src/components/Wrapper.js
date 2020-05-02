@@ -6,9 +6,9 @@ import Navigation from "./Navigation";
 import TopNavMenu from "./TopNavMenu";
 import SEO from "./SEO";
 import styles from "./Wrapper.module.css";
-import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import MyBreadCrumbs from './MyBreadCrubs';
 
-const Wrapper = ({ children, location, crumbLabel }) => {
+const Wrapper = ({ children, breaddata }) => {
   const [isMobile, setIsMobile] = useState(false);
   const { dark } = useContext(ThemeContext);
 
@@ -24,9 +24,7 @@ const Wrapper = ({ children, location, crumbLabel }) => {
 
   return (
     <div className={`${dark ? styles.dark : styles.light} ${styles.wrapper}`}>
-      <div className="breadcrumbs-container">
-        <Breadcrumb location={location} crumbLabel={crumbLabel} />
-      </div>
+      {breaddata.crumbs && breaddata.crumbs.length && <MyBreadCrumbs breaddata={breaddata} />}
       <SEO />
       <TopNavMenu />
       <Navigation />
@@ -39,8 +37,7 @@ const Wrapper = ({ children, location, crumbLabel }) => {
 
 Wrapper.propTypes = {
   children: PropTypes.node.isRequired,
-  location: PropTypes.string,
-  crumbLabel: PropTypes.string
+  breaddata: PropTypes.object
 };
 
 export default Wrapper;
