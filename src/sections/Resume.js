@@ -35,24 +35,24 @@ const Resume = ({ expended = false }) => {
           >
             <FaLink className="absolute" color="#FFF" size="5rem" />
             <GatsbyImage
-              alt="Amit Friedberg Resume CV"
+              alt="Amit Friedberg Résumé CV"
               loading="lazy"
               className="absolute w-full h-64 md:h-48 lg:h-64 object-cover rounded-lg hover:opacity-50 duration-200"
               imgStyle={{ objectPosition: "top" }}
               {...data.file.childImageSharp}
             />
-            <span className="sr-only">Download Resume</span>
+            <span className="sr-only">Download Résumé</span>
           </OutboundLink>
         </div>
         <div className="col-span-1 md:col-span-3">
           <h4 className="text-lg lg:text-xl font-semibold">
-            Home Made Resume
+            Home Made Résumé
           </h4>
 
           <Button
             className="mt-8"
             icon={IoIosDocument}
-            title="Download Resume"
+            title="Download Résumé"
             onClick={() =>
               window.open("https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV", "_blank")
             }
@@ -99,24 +99,24 @@ const Resume = ({ expended = false }) => {
                 >
                     <FaLink className="absolute" color="#FFF" size="5rem" />
                     <GatsbyImage
-                        alt="Amit Friedberg Resume CV"
+                        alt="Amit Friedberg Résumé CV"
                         loading="lazy"
                         className="absolute w-full h-64 md:h-48 lg:h-64 object-cover rounded-lg hover:opacity-50 duration-200"
                         imgStyle={{ objectPosition: "top" }}
                         {...data.file.childImageSharp}
                     />
-                    <span className="sr-only">Download Resume</span>
+                    <span className="sr-only">Download Résumé</span>
                 </OutboundLink>
             </div>
             <div className="col-span-1 md:col-span-3">
                 <h4 className="text-lg lg:text-xl font-semibold">
-                    Home Made Resume
+                    Home Made Résumé
                 </h4>
 
                 <Button
                     className="mt-8 clear-button"
                     icon={IoIosDocument}
-                    title="Download Resume"
+                    title="Download Résumé"
                     onClick={() =>
                         window.open("https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV", "_blank")
                     }

@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 
 const MyBreadCrumbs = ({ breaddata = { crumbs: [] } }) => {
     const elementsNew = breaddata.crumbs.map(item => ({ pathname: item.pathname, crumlabel: item.crumbLabel.replace(/-/g, ' ') }));
-    console.log(elementsNew)
-
     return (
         <>
             <div className="breadcrumbs-container">

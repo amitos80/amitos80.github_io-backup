@@ -1,29 +1,74 @@
-
 import React from "react";
 import { Helmet } from "react-helmet";
+import PropTypes from 'prop-types';
 
-const SEO = () => {
 
-    const siteScreenshot = `"https://amitos80.github.io/site-screenshot.png"`;
 
-    const site = {
-        siteMetadata: {
-            title: `Amit Friedberg - Freelancer Full Stack Web Developer`,
-            description: `Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
-            author: `Amit Friedberg`,
-            image: siteScreenshot
+const SEO = ({ location }) => {
+    const meta = {
+        '/': {
+            siteMetadata: {
+                title: `Amit Friedberg - Tel-Aviv based Freelancer Full Stack Web Developer`,
+                description: `Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/site-screenshot.png"`
+            }
+        },
+        '/resume/': {
+            siteMetadata: {
+                title: `Freelancer Full Stack Web Developer Online Résumé`,
+                description: `Online Résumé CV of a Tel-Aviv based Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/resume-screenshot.png"`
+            }
+        },
+        '/about/': {
+            siteMetadata: {
+                title: `About Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
+                description: `About me Bio of Amit Friedberg Tel-Aviv based  Freelancer Full Stack Web Developer`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/about-screenshot.png"`
+            }
+        },
+        '/experience/': {
+            siteMetadata: {
+                title: `About Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer proven experience`,
+                description: `Professional experience of  Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/experience-screenshot.png"`
+            }
+        },
+        '/projects/': {
+            siteMetadata: {
+                title: `Projects Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer took part in`,
+                description: `Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer Projects list`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/projects-screenshot.png"`
+            }
+        },
+        '/skills/': {
+            siteMetadata: {
+                title: `Skills of Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer`,
+                description: `Amit Friedberg Tel-Aviv based Freelancer Full Stack Web Developer Skills list`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/skills-screenshot.png"`
+            }
         }
-    }
+    };
+
+  const site = meta[location];
+  if (!site) return null;
+
+  const siteScreenshot = site.siteMetadata.image;
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
-  // const image = site.siteMetadata.image;
-
   const profileImage = `"https://amitos80.github.io/profile.png"`;
-  // const cvImage = `"https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png"`;
-
   const orgName = '"Freelancer Web Applications Developer"';
   const skills = '"Frontend development, Backend development, Javascript, HTML, CSS, React, Vue.js, Node.js, MongoDB, MySQL, Cassandra, Software Development, Building web apps, Freelancer developer"';
+
+  // const image = site.siteMetadata.image;
+  // const cvImage = `"https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png"`;
 
   const person = `{
     "@context": "https://schema.org/",
@@ -50,7 +95,7 @@ const SEO = () => {
         "areaServed": "Worldwide"
     }`;
 
-  /*
+  /* TODO:
      add to Service
      "serviceUrl": "https://amitos80.github.io/",
      "servicePhone": ${contactPoint},
@@ -63,15 +108,15 @@ const SEO = () => {
   */
 
 
-  return (
+  const pageUrl = `https://amitos80.github.io${location}`;
+    return (
     <Helmet
-//link rel="alternate" href="http://example.com" hreflang="en-us" />
       htmlAttributes={{ lang: "en" }}
       defer={false}
       title={title}
       link={[
-          { rel: `canonical`, href: `https://amitos80.github.io/` },
-          { rel: `alternate`, href: `https://amitos80.github.io/`, hreflang: `en-us` }
+          { rel: `canonical`, href: pageUrl },
+          { rel: `alternate`, href: pageUrl, hreflang: `en-us` }
       ]}
       meta={[
         {
@@ -84,7 +129,7 @@ const SEO = () => {
         },
         {
           property: `og:url`,
-          content:  `https://amitos80.github.io/`,
+          content:  pageUrl,
         },
         {
           property: `og:title`,
@@ -104,9 +149,7 @@ const SEO = () => {
         },
         {
           name: `twitter:card`,
-          content: `Hey there! I'm Amit Friedberg, Tel-Aviv based, a developer for the past 9 Years. I've been a full stack web developer in the music, adtech, fintech industries and as a freelancer ([download cv](https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV)).
-As a developer I always try to come up with the most simple and elegant solution according to the constraints and requirements.
-I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Architecture Design, Atomic Design Methodology.`,
+          content: description,
         },
         {
           name: `twitter:creator`,
@@ -143,7 +186,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                     "postalCode": "6433222",
                     "streetAddress":"Dizengoff 50",
                     "alternateName": "Tel-Aviv based Freelancer Web Developer - https://amitos80.github.io",
-                    "description": "Tel-Aviv based Freelancer web developer resume and portfolio"
+                    "description": "Tel-Aviv based Freelancer web developer Résumé and portfolio"
                 },
                 "address": {
                     "@type": "PostalAddress",
@@ -214,9 +257,9 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - My resume and portfolio web site",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - My Résumé and portfolio web site",
                                     "url": "https://amitos80.github.io/site-screenshot.png",
-                                    "alternateName": "Screen shot resume and portfolio web site"
+                                    "alternateName": "Screen shot Résumé and portfolio web site"
                                  }
                             },
                             {
@@ -236,6 +279,10 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
         `}</script>
     </Helmet>
   );
+};
+
+SEO.propTypes = {
+    location: PropTypes.string
 };
 
 export default SEO;

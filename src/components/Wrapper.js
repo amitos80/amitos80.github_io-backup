@@ -25,7 +25,7 @@ const Wrapper = ({ children, breaddata }) => {
   return (
     <div className={`${dark ? styles.dark : styles.light} ${styles.wrapper}`}>
       {breaddata.crumbs && breaddata.crumbs.length && <MyBreadCrumbs breaddata={breaddata} />}
-      <SEO />
+      {breaddata && breaddata.location && <SEO location={breaddata.location} />}
       <TopNavMenu />
       <Navigation />
 

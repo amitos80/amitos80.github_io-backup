@@ -13,8 +13,6 @@ import styles from "./index.module.css";
 import PropTypes from 'prop-types';
 
 const IndexPage = ({ pageContext }) => {
-    console.log('pageContext -> ', pageContext);
-
   return (
     <Wrapper breaddata={pageContext.breadcrumb}>
       <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
