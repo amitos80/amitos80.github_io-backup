@@ -14,6 +14,7 @@ const Skills = () => {
             id
             name
             tech
+            alt
             icon {
               childImageSharp {
                 fixed(width: 20, height: 20) {
@@ -41,6 +42,7 @@ const Skills = () => {
           >
             <div className="flex items-center">
               <GatsbyImage
+                alt={node.alt}
                 loading="lazy"
                 className="w-5 h-5 mr-5"
                 {...node.icon.childImageSharp}
