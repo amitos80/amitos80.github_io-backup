@@ -2,9 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import PropTypes from 'prop-types';
 
+const removeQuotes = (str) => str.replace(/[`']/g, '');
 
 
-const SEO = ({ location }) => {
+const SEO = ({ location = '/' }) => {
     const meta = {
         '/': {
             siteMetadata: {
@@ -57,8 +58,6 @@ const SEO = ({ location }) => {
     };
 
   const site = meta[location];
-  if (!site) return null;
-
   const siteScreenshot = site.siteMetadata.image;
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
@@ -146,7 +145,7 @@ const SEO = ({ location }) => {
         },
         {
           property: "og:image",
-          content: profileImage.replace(/["']/g, '')
+          content: removeQuotes(siteScreenshot)
         },
         {
           name: `twitter:card`,
@@ -166,7 +165,7 @@ const SEO = ({ location }) => {
         },
         {
           name: "twitter:card",
-          content: siteScreenshot.replace(/["']/g, '')
+          content: removeQuotes(siteScreenshot)
         },
       ]} >
         <script type="application/ld+json">{`
