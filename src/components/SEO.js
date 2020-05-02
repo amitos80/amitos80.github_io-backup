@@ -4,20 +4,22 @@ import { Helmet } from "react-helmet";
 
 const SEO = () => {
 
+    const siteScreenshot = `"https://amitos80.github.io/site-screenshot.png"`;
+
     const site = {
         siteMetadata: {
             title: `Amit Friedberg - Freelancer Full Stack Web Developer`,
             description: `Freelancer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
             author: `Amit Friedberg`,
-            image: 'https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png'
+            image: siteScreenshot
         }
     }
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
   // const image = site.siteMetadata.image;
-  // const profilePicture = `"https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png"`;
-  const siteScreenshot = `"https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png"`;
+
+  const profileImage = `"https://amitos80.github.io/profile.png"`;
   // const cvImage = `"https://user-images.githubusercontent.com/1379356/80427121-c14f9180-88ef-11ea-930b-de665de4a31d.png"`;
 
   const orgName = '"Freelancer Web Applications Developer"';
@@ -28,7 +30,7 @@ const SEO = () => {
     "@type": "Person",
     "name": "Amit Friedberg",
     "url": "https://amitos80.github.io/",
-    "image": "https://user-images.githubusercontent.com/1379356/80426782-16d76e80-88ef-11ea-9561-fbff831e55c2.png",
+    "image": ${profileImage},
     "sameAs": [
         "https://www.instagram.com/amitfriedberg",
         "https://www.facebook.com/amit.friedberg"
@@ -98,7 +100,7 @@ const SEO = () => {
         },
         {
           property: "og:image",
-          content: siteScreenshot,
+          content: profileImage.replace(/["']/g, '')
         },
         {
           name: `twitter:card`,
@@ -120,7 +122,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
         },
         {
           name: "twitter:card",
-          content: siteScreenshot
+          content: siteScreenshot.replace(/["']/g, '')
         },
       ]} >
         <script type="application/ld+json">{`
@@ -179,7 +181,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "Web app for smart recruiting employees",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "url": "https://amitos80.github.io/lnrd.png",
                                     "alternateName": "Screen shot Lnrd"
                                  }
                             },
@@ -188,7 +190,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "Music player with multiple streaming providers and real time analytics (https://feature.fm)",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "url": "https://amitos80.github.io/ffm-player.png",
                                     "alternateName": "Screen shot Feature.Fm"
                                  }
                             },
@@ -197,7 +199,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "Financial Magazine (https://www.fxempire.com/)",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80473822-57ff6b00-894f-11ea-8599-b01e765523fa.png",
+                                    "url": "https://amitos80.github.io/fxempire.png",
                                     "alternateName": "Screen shot FxEmpire"
                                  }
                             },
@@ -206,7 +208,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "My resume and portfolio web site",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80626879-c0d20a80-8a57-11ea-8d08-310a8edc7d1f.png",
+                                    "url": "https://amitos80.github.io/site-screenshot.png",
                                     "alternateName": "Screen shot resume and portfolio web site"
                                  }
                             },
@@ -215,7 +217,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "image": {
                                     "@type": "ImageObject",
                                     "name": "Cyiot at Orchestra group tel aviv",
-                                    "url": "https://user-images.githubusercontent.com/1379356/80473801-4fa73000-894f-11ea-8c2d-0e1abe2e4ce4.png",
+                                    "url": "https://amitos80.github.io/ciyot.png",
                                     "alternateName": "Screen shot Cyiot at Orchestra group tel aviv"
                                  }
                             }

@@ -20,7 +20,7 @@ module.exports = {
         short_name: `Amit Friedberg's Resume`,
         start_url: '/',
         background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal[`500`],
+        theme_color: fullConfig.theme.colors.purple['500'],
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
         cache_busting_mode: `none`,

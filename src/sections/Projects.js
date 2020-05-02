@@ -76,7 +76,7 @@ const Projects = () => {
       <Button
         className="mt-6 clear-button"
         icon={FaGithub}
-        title="My GitHub"
+        title="More on GitHub"
         onClick={() => window.open("https://github.com/amitos80", "_blank")}
       />
     </section>

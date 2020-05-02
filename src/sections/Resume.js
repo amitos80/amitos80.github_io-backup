@@ -112,7 +112,7 @@ const Resume = ({ expended = false }) => {
                 </h4>
 
                 <Button
-                    className="mt-8"
+                    className="mt-8 clear-button"
                     icon={IoIosDocument}
                     title="Download Resume"
                     onClick={() =>
