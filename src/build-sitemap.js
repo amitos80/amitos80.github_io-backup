@@ -20,20 +20,14 @@ const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
   </sitemapindex>`;
 
 const sitemap1 = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-
-     ${links.map(link => `<url>
-        <loc>${base}/${link.path}</loc>
-        <lastmod>${formatDate()}</lastmod>
-        <changefreq>daily</changefreq>
-        </url>`
-     )}
-</urlset>
-`;
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+         ${links.map(link => `<url>
+            <loc>${base}/${link.path}</loc>
+            <lastmod>${formatDate()}</lastmod>
+            <changefreq>weekly</changefreq>
+            </url>`
+         )}
+    </urlset>`;
 
 const writeFile = (path, str) => {
     const fs = require('fs');
