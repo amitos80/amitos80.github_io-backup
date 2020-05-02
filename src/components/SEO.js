@@ -78,7 +78,8 @@ const SEO = ({ location }) => {
     "image": ${profileImage},
     "sameAs": [
         "https://www.instagram.com/amitfriedberg",
-        "https://www.facebook.com/amit.friedberg"
+        "https://www.facebook.com/amit.friedberg",
+        "https://www.linkedin.com/in/amit-friedberg-64bb53a"
     ],
     "jobTitle": "Freelancer Full Stack Web Developer",
     "worksFor": {
