@@ -104,7 +104,7 @@ const SEO = () => {
         },
         {
           name: `twitter:card`,
-          content: `Hey there! I'm Amit Friedberg, I've been a developer for the past 9 Years. I've been a full stack web developer in the music, adtech, fintech industries and as a freelancer ([download cv](https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV)).
+          content: `Hey there! I'm Amit Friedberg, Tel-Aviv based, a developer for the past 9 Years. I've been a full stack web developer in the music, adtech, fintech industries and as a freelancer ([download cv](https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV)).
 As a developer I always try to come up with the most simple and elegant solution according to the constraints and requirements.
 I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Architecture Design, Atomic Design Methodology.`,
         },
@@ -135,23 +135,30 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                 "funder": ${person},
                 "knowsAbout": ${skills},
                 "contactPoint": ${contactPoint},
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Israel",
+                    "addressLocality": "Tel-Aviv",
+                    "addressRegion": "Tel-Aviv",
+                    "postalCode": "6433222",
+                    "streetAddress":"Dizengoff 50",
+                    "alternateName": "Tel-Aviv based Freelancer Web Developer - https://amitos80.github.io",
+                    "description": "Tel-Aviv based  Freelancer web developer resume and portfolio"
+                },
                 "address": {
                     "@type": "PostalAddress",
                     "addressCountry": "Israel",
                     "addressLocality": "Tel-Aviv",
-                    "addressRegion": "Tel-Aviv"
-                },
-                "location": {
-                    "@type": "VirtualLocation",
-                    "alternateName": "Freelancer Web Developer - https://amitos80.github.io",
-                    "description": "Freelancer web developer resume and portfolio",
-                    "subjectOf": {
+                    "addressRegion": "Tel-Aviv",
+                    "postalCode": "6433222",
+                    "streetAddress":"Dizengoff 50",
+                     "subjectOf": {
                         "@type": "CreativeWork",
                         "creator": ${person},
                         "funder": ${person},
                         "maintainer": ${person},
                         "genre": ${skills},
-                        "headline": "Freelancer full stack web developer",
+                        "headline": "Tel-Aviv based Freelancer full stack web developer",
                         "text": "Fast, responsive, modern web applications development. Amit Friedberg Full Stack Web Developer",
                         "thumbnailUrl": ${siteScreenshot}
                     }
@@ -166,7 +173,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
         {
             "@context": "http://schema.org/",
             "@type": "Service",
-            "serviceType": "Web Applications Development",
+            "serviceType": "Tel-Aviv based based Web Applications Development service",
             "areaServed": "Worldwide",
             "hasOfferCatalog": {
                 "@type": "OfferCatalog",
@@ -180,7 +187,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Web app for smart recruiting employees",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - Web app for smart recruiting employees",
                                     "url": "https://amitos80.github.io/lnrd.png",
                                     "alternateName": "Screen shot Lnrd"
                                  }
@@ -189,7 +196,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Music player with multiple streaming providers and real time analytics (https://feature.fm)",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - Music player with multiple streaming providers and real time analytics (https://feature.fm)",
                                     "url": "https://amitos80.github.io/ffm-player.png",
                                     "alternateName": "Screen shot Feature.Fm"
                                  }
@@ -198,7 +205,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Financial Magazine (https://www.fxempire.com/)",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - Financial Magazine (https://www.fxempire.com/)",
                                     "url": "https://amitos80.github.io/fxempire.png",
                                     "alternateName": "Screen shot FxEmpire"
                                  }
@@ -207,7 +214,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "My resume and portfolio web site",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - My resume and portfolio web site",
                                     "url": "https://amitos80.github.io/site-screenshot.png",
                                     "alternateName": "Screen shot resume and portfolio web site"
                                  }
@@ -216,7 +223,7 @@ I'm Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Arch
                                 "@type": "Offer",
                                 "image": {
                                     "@type": "ImageObject",
-                                    "name": "Cyiot at Orchestra group tel aviv",
+                                    "name": "Tel-Aviv based Freelancer full stack web developer portfolio - Cyiot at Orchestra group tel aviv",
                                     "url": "https://amitos80.github.io/ciyot.png",
                                     "alternateName": "Screen shot Cyiot at Orchestra group tel aviv"
                                  }

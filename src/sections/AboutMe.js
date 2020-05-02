@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutMe = () => {
     const __html = `<div>Hey there!</div>
-            <div>I'm Amit Friedberg. I'm a Software development enthusiast with a passion for web development and the js echo-system.</div>
+            <div>Tel-Aviv based Software development enthusiast with a passion for web development and the js echo-system.</div>
 
             <div>I've been a developer for the past 9 Years. During that period I gained lots of experience in developing fast,
              beautiful, responsive web apps in multiple roles and companies in the music, adtech, journalism, and fintech industries.
