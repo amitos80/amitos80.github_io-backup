@@ -1,0 +1,13 @@
+.transition-default {
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.container {
+    @apply absolute top-0 right-0 mt-2 mr-5 z-20 block;
+}
+
+.list {
+    opacity: .5;
+    font-size: 12px;
+    @apply flex justify-between items-center;
+}

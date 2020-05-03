@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan:500&display=swap');
+
+.topnavmenu {
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.container {
+
+}
+
+.container .bm-burger-button {
+    position: absolute;
+    width: 30px;
+    height: 22px;
+    left: 15px;
+    top: 18px;
+}
+
+
+.container .bm-burger-bars {
+    background: rgb(121, 150, 245);
+}
+
+
+.container .bm-burger-bars-hover {
+    background: #a90000;
+}
+
+
+.container .bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+
+.container .bm-cross {
+    background: #ff1b1b;
+}
+
+
+.container .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+.container .bm-menu {
+    background: #0E011E;
+    /* background: #7996F5; */
+    padding: 1.5rem 2rem 0;
+    font-size: 1.15em;
+}
+
+.container .bm-morph-shape {
+    fill: #373a47;
+}
+
+.container .bm-item-list {
+    color: #b8b7ad;
+    /* padding-left:1rem; */
+    padding-top: 1rem;
+}
+
+
+.container .bm-item {
+    display: inline-block;
+}
+
+
+.container .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.container .menu-item{
+    text-decoration: none;
+    color: #CCD6F6;
+    padding: 10px;
+    padding-bottom: 25px;
+    /* text-align: center; */
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif ;
+}
+
+.container .menu-item:active{
+    color: tomato;
+}
+
+.container .topright {
+    display: flex;
+    float: right;
+    margin-right: 6px;
+
+}
+
+.container ul li a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Spartan', monospace;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); */
+    color:rgb(121, 150, 245) ;
+}
+
+.container ul li {
+    list-style: none;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.container .bg-moon {
+    width: 100px;
+    background-size: contain;
+    margin-left: 0;
+    filter: opacity(0.4);
+    /* transform: rotate(180deg); */
+    /* margin-top: 01px; */
+}
+
+@screen lg {
+    .container {
+        display: none !important;
+    }
+}

@@ -87,7 +87,7 @@ const Navigation = () => {
         <div className={styles.sectionLinks}>{sections.map(SectionLink)}</div>
       </div>
       <div
-        className="flex-center cursor-pointer hover:text-primary-500"
+        className={`${styles.toggle} flex-center cursor-pointer hover:text-primary-500`}
         onClick={toggleDark}
         data-tip="Toggle Dark Mode"
         data-place="right"

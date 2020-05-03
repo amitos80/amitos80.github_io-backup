@@ -3,6 +3,7 @@ import React, { useState, useContext, useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import ThemeContext from "../context/ThemeContext";
 import Navigation from "./Navigation";
+import SideBar from "./SideBar";
 import TopNavMenu from "./TopNavMenu";
 import SEO from "./SEO";
 import styles from "./Wrapper.module.css";
@@ -28,7 +29,7 @@ const Wrapper = ({ children, breaddata }) => {
       {breaddata && breaddata.location && <SEO location={breaddata.location} />}
       <TopNavMenu />
       <Navigation />
-
+      <SideBar />
       <div className="mx-8">{children}</div>
       <ReactTooltip disable={isMobile} />
     </div>
