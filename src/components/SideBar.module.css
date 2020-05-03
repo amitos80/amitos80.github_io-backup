@@ -7,7 +7,7 @@
 }
 
 .container {
-
+    @apply fixed inset-x-0 top-0 flex justify-between items-center ;
 }
 
 .container .bm-burger-button {
@@ -72,7 +72,9 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
-.container .menu-item{
+.menuitem {}
+
+.container .menuitem {
     text-decoration: none;
     color: #CCD6F6;
     padding: 10px;
@@ -82,7 +84,7 @@
     font-family: 'Poppins',sans-serif ;
 }
 
-.container .menu-item:active{
+.container .menuitem:active{
     color: tomato;
 }
 
@@ -123,7 +125,7 @@
     /* margin-top: 01px; */
 }
 
-@screen lg {
+@screen md {
     .container {
         display: none !important;
     }

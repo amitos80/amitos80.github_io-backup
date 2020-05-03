@@ -8,11 +8,13 @@ const MyBreadCrumbs = ({ breaddata = { crumbs: [] } }) => {
     return (
         <div className={styles.container}>
             <ul className={`${styles.list} breadcrumb__list`}>
-                {elementsNew.map((value, index) => {
-                    return  <li key={index} className="breadcrumb__item">
-                        <Link key={index} to={`${value.pathname}`}>{value.crumlabel} <span> / </span> </Link>
+                {elementsNew.map((value, index) => (
+                    <li key={index} className="breadcrumb__item">
+                        <Link key={index} to={`${value.pathname}`}>{value.crumlabel}
+                            {index !== elementsNew.length - 1 && <span>&nbsp;&gt;&nbsp;</span>}
+                    </Link>
                     </li>
-                })}
+                ))}
             </ul>
         </div>
     )

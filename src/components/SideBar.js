@@ -15,7 +15,10 @@ const SideBar = () => {
                 { href:'/resume', text: 'Résumé'},
                 { href:'/about', text: 'About'}
             ].map((item, key) => (
-                    <Link to={item.href} className="menu-item sm:text-sm sm:mr-5 sm:mt-20 text-md mr-10 font-semibold" key={key}>{item.text}</Link>
+                    <Link to={item.href} className={`${styles.menuitem} sm:text-sm sm:mr-5 sm:mt-20 text-md mr-10 font-semibold`} key={key}>
+                        {item.text}
+                        <a id={item.href} href={item.href}></a>
+                    </Link>
                 )
             )}
         </Menu>
