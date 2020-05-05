@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "description": "",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Amit Friedberg <amitos80@gmail.com>",
     "dependencies": {
         "@sendgrid/mail": "^7.0.1",
