@@ -18,7 +18,7 @@ module.exports = {
       options: {
         name: `Amit Friedberg - Freelance Web Developer`,
         short_name: `Freelance Web Developer`,
-        start_url: '/',
+        start_url: 'https://amitos80.github.io/',
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.purple['500'],
         display: `minimal-ui`,
