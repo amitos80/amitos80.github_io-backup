@@ -7,15 +7,15 @@ module.exports = (req, res) => {
 
   const msg = {
     to: {
-      name: "Amit Friedberg",
-      email: "im.amruth@gmail.com",
+      name: 'Amit Friedberg"',
+      email: 'amitos80@gmail.com',
     },
     from: {
-      name: `${name} via my website`,
-      email: "no-reply@em1527.pillai.xyz",
+      name: `${name} (ref:https://amitos80.github.io/)`,
+      email: "amitos80@gmail.com",
     },
     replyTo: { name, email },
-    subject: "new email from website",
+    subject: "about freelance web project  (ref:https://amitos80.github.io/)",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`,
   };
