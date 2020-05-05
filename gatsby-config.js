@@ -14,24 +14,24 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+            globPatterns: [`**/*`],
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Amit Friedberg - Freelance Web Developer`,
+        name: `Freelance Web Developer - Amit Freidberg`,
         short_name: `Freelance Web Developer`,
-        start_url: 'https://amitos80.github.io/',
+        start_url: '/',
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.purple['500'],
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
         cache_busting_mode: `none`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`**/*`],
-        },
       },
     },
     {
