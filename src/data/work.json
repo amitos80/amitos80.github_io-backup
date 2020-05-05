@@ -1,8 +1,8 @@
 [
   {
     "icon": "../images/work/freelance.png",
-    "alt": "Amit Friedberg Full stack web developer logo",
-    "title": "Freelancer Full Stack Web Developer",
+    "alt": "Amit Friedberg web developer logo",
+    "title": "Freelance Web Developer",
     "subtitle": "",
     "period": "2019 - Now",
     "location": "Tel-Aviv, Israel",
@@ -10,7 +10,7 @@
   },
   {
     "icon": "../images/work/featurefm.png",
-    "title": "Full Stack Web Developer at FeatureFM",
+    "title": "Web Developer at FeatureFM",
     "alt": "FeatureFM logo",
     "subtitle": "",
     "period": "2018 - 2019",
@@ -19,7 +19,7 @@
   },
   {
     "icon": "../images/work/fxempirenew.png",
-    "title": "Full Stack Web Developer at FXEmpire",
+    "title": "Web Developer at FXEmpire",
     "alt": "FXEmpire logo",
     "subtitle": "",
     "period": "2016 - 2017",
@@ -28,7 +28,7 @@
   },
   {
     "icon": "../images/work/featurefm.png",
-    "title": "Full Stack Web Developer at FeatureFM",
+    "title": "Web Developer at FeatureFM",
     "subtitle": "",
     "alt": "FeatureFM logo",
     "period": "2014 - 2016",
@@ -37,7 +37,7 @@
   },
   {
     "icon": "../images/work/equala.png",
-    "title": "Full Stack Developer at EQuala.Fm",
+    "title": "Android and Web Developer at EQuala.Fm",
     "alt": "EQuala.Fm logo",
     "subtitle": "",
     "period": "2011 - 2013",

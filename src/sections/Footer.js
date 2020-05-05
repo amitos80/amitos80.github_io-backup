@@ -7,11 +7,12 @@ const Footer = () => {
 
   return (
     <section id="footer">
-      <Heading icon={FaInfoCircle} title="Tel-Aviv based freelance full stack web developer - Contact" />
+      <Heading icon={FaInfoCircle} title="Freelance web developer" />
       <div className="mt-0 pt-0 pb-12 text-xs leading-relaxed opacity-85">
-          <div style={{ width: '138px' }} className=" h-6 my-6">
-              <Social />
-          </div>
+          Hire Freelance Developer, Remote Developer, Remote Freelance Developer, Hire Remote Web Developer
+        <div style={{ width: '138px' }} className=" h-6 my-6">
+            <Social />
+        </div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=972522266878&text=From:%20my-resume-website">WhatsApp</a>
         </div>

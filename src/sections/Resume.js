@@ -67,13 +67,13 @@ const Resume = ({ expended = false }) => {
                     Amit Friedberg
                 </h4>
                 <h4 className="text-lg lg:text-lg font-semibold">
-                    FREELANCER | FULL STACK DEVELOPER | INSTRUCTOR
+                    FREELANCER | FRONTEND DEVELOPER | BACKEND DEVELOPER | INSTRUCTOR
                 </h4>
                 <p className="mt-2 pb-5 text-sm text-justify">
-                    I love coding, In the last decade, I have had extended experience in Web Development in multiple frameworks and platformssuch as React, Vuejs, Nodejs and many more.
-                    I have 9 years of experience with various web and mobile app development. I also enjoy instructing and teaching.
+                    {`I love coding, In the last decade, I have had extended experience in Web Development in multiple frameworks and platforms such as React, Vuejs, Nodejs and many more.
+                    I've been a frontend and backend web developer (full stack web developer) in the Music, Adtech, Cyber, Fintech industries as an employee and a freelancer. I also enjoy instructing and teaching.
                     For 2 years I taught at the course at Visual Communication department at Shenkar Engineering And Design. The idea was to give students coding skills
-                    and tools to create interactive installations.
+                    and tools to create interactive installations.`}
                 </p>
                 <div className="flex flex-col ">
                     {[

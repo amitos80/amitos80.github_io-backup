@@ -61,7 +61,7 @@ const Hero = () => {
 
           <h1 className="sr-only">
             Amit Friedberg<br />
-            Full Stack Web Developer/Teacher/Maker/Guitars Lover
+            Ninja Web Developer / Teacher / Maker / Guitar Shredder
           </h1>
 
           <div className="text-center lg:text-left flex flex-col items-center lg:ml-4 lg:items-start">
