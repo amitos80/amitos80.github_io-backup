@@ -14,14 +14,6 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-            globPatterns: [`**/*`],
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Freelance Web Developer - Amit Freidberg`,
@@ -32,6 +24,14 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
         cache_busting_mode: `none`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+            globPatterns: [`**/*`],
+        },
       },
     },
     {
