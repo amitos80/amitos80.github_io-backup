@@ -15,6 +15,14 @@ const SEO = ({ location = '/' }) => {
                 image: `"https://amitos80.github.io/site-screenshot.png"`
             }
         },
+        '/home/': {
+            siteMetadata: {
+                title: `Amit Friedberg Tel-Aviv based Freelance Web Developer`,
+                description: `Hire Freelance Developer, Remote Developer, Remote Freelance Developer, Hire Remote Web Developer - Freelancer Full Stack Web Developer Skilled in JS, React, Vue, Styled Components, Nodejs, Webpack, mondoDb, Software Architecture, Atomic Design Methodology and more.`,
+                author: `Amit Friedberg`,
+                image: `"https://amitos80.github.io/site-screenshot.png"`
+            }
+        },
         '/resume/': {
             siteMetadata: {
                 title: `Freelance Web Developer Online Résumé`,
