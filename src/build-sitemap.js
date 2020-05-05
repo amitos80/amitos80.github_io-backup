@@ -42,6 +42,3 @@ const writeFile = (path, str) => {
 writeFile('./static/sitemap.xml', sitemapIndex);
 writeFile('./static/sitemap1.xml', sitemap1);
 
-
-
-

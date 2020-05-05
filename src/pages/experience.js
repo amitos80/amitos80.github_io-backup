@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 const IndexPage = ({ pageContext }) => {
   return (
     <Wrapper breaddata={pageContext.breadcrumb}>
-      <div className={`pt-10 container ${styles.layout} ${styles.containerFadeIn}`}>
+      <div className={`pt-10 container ${styles.layout}`}>
         <Hero />
         <div className={styles.workEducation}>
           <Work />

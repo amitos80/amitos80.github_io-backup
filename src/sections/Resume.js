@@ -25,7 +25,7 @@ const Resume = ({ expended = false }) => {
     <section id="resume">
       <Heading icon={IoIosDocument} title="Résumé" />
 
-      {!expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
+      {!expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center wow fadeIn">
         <div className="col-span-1 md:col-span-2">
           <OutboundLink
             href="https://drive.google.com/open?id=1nm-MPpHGrxKl3TsAj8YpV8c8IQwETykV"
@@ -61,7 +61,7 @@ const Resume = ({ expended = false }) => {
         </div>
       </div>}
 
-        {expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
+        {expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center wow fadeIn">
             <div className="col-span-4 md:col-span-4">
                 <h4 className="text-lg lg:text-xl font-semibold">
                     Amit Friedberg
