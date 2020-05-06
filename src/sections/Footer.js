@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "../components/Heading";
 import { FaInfoCircle } from "../components/Icons";
 import Social from '../components/Social'
+import Version from '../components/Version'
 
 const Footer = () => {
 
@@ -19,6 +20,7 @@ const Footer = () => {
         <div>
           <a href="tell:+972522266878">+972522266878</a>
         </div>
+        <Version />
       </div>
     </section>
   );
