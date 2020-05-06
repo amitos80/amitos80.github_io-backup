@@ -18,7 +18,7 @@ module.exports = {
       options: {
         name: `Freelance Web Developer - Amit Freidberg`,
         short_name: `Freelance Web Developer`,
-        start_url: '/home',
+        start_url: '/',
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.purple['500'],
         display: `minimal-ui`,
