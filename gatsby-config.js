@@ -102,6 +102,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-minify`,
-    `gatsby-plugin-netlify-headers`
+    `gatsby-plugin-netlify-headers`,
+    {
+      resolve: 'gatsby-plugin-zopfli'
+    }
   ],
 };
