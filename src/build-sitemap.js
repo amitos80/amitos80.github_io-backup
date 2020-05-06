@@ -5,6 +5,7 @@ const formatDate = (date = new Date) =>
 
 const base = 'https://amitos80.github.io';
 const links = [
+    { path: 'home' },
     { path: 'about' },
     { path: 'projects' },
     { path: 'experience' },
