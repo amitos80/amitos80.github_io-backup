@@ -61,5 +61,20 @@
             "styled-components"
         ],
         "website": "https://www.fxempire.com/"
+    },
+    {
+        "image": "../images/projects/lessbook.png",
+        "title": "LessBook - Minimal dark facebook theme Chrome Extension",
+        "alt": "LessBook - Minimal dark facebook theme Chrome Extension screenshot",
+        "description": "",
+        "tags": [
+            "react",
+            "webpack",
+            "design",
+            "less",
+            "facebook",
+            "open-source"
+        ],
+        "website": "https://chrome.google.com/webstore/detail/dbceamokdciaphimigjbikddhmiiceie/publish-delayed?authuser=0&hl=en"
     }
 ]
