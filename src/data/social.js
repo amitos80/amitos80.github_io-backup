@@ -2,9 +2,16 @@ import {
   FaGithubAlt,
   FaInstagram,
   FaLinkedinIn,
+  FaFacebookF
 } from "../components/Icons";
 
 const social = [
+  {
+    title: "Facebook",
+    icon: FaFacebookF,
+    link: "https://www.facebook.com/amit.friedberg",
+    class: "bg-facebook",
+  },
   {
     title: "LinkedIn",
     icon: FaLinkedinIn,

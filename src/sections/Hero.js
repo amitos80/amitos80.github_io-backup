@@ -51,8 +51,11 @@ const Hero = () => {
         <div ref={parallaxRef} className="col-span-2">
           <div style={{ width: '200px' }} className="mx-auto" data-depth="0.4">
             <GatsbyImage title="profile photo" alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
-              <div style={{ width: '138px' }} className="mx-auto h-6 my-6">
+              <div style={{ width: '190px' }} className="mx-auto h-2 my-6">
                   {showSocial && <Social />}
+              </div>
+              <div  className="text-xs font-light flex-center wow fadeIn low-opacity light">
+                  <a className="text-xs font-light" href="mailto:amitos80@gmail.com?Subject=Freelance project" target="_top">amitos80@gmail.com</a>
               </div>
           </div>
         </div>
