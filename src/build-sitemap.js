@@ -25,7 +25,7 @@ const sitemap1 = `<?xml version="1.0" encoding="UTF-8"?>
          ${links.map(link => `<url>
             <loc>${base}/${link.path}</loc>
             <lastmod>${formatDate()}</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             </url>`
          )}
     </urlset>`;

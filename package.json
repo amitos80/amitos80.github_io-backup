@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "description": "",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "author": "Amit Friedberg <amitos80@gmail.com>",
     "dependencies": {
         "gatsby": "2.20.29",
