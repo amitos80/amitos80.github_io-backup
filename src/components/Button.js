@@ -2,15 +2,26 @@ import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import styles from "./Button.module.css";
 import ThemeContext from "../context/ThemeContext";
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+
 
 const Button = ({ type, className, icon, title, onClick, disabled, ...rest }) => {
   const { dark } = useContext(ThemeContext);
   const Icon = icon;
 
+  const click = e => {
+    e.preventDefault();
+    trackCustomEvent({
+        category: `${icon}-${type}`,
+        action: title
+    });
+    onClick(e);
+  }
+
   return (
     <button
       type={type}
-      onClick={onClick}
+      onClick={click}
       disabled={disabled}
       className={`${styles.container} ${className} ${!dark && styles.light}`}
       {...rest}

@@ -110,6 +110,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
           trackingId: `UA-55236659-4`,
+          anonymize: true,
+          alwaysSendReferrer: true,
+          cookieExpires: 60 * 60 * 24 * 30,
+          forceSSL: true,
           // Defines where to place the tracking script - `true` in the head and `false` in the body
           head: false,
           // Setting this parameter is optional

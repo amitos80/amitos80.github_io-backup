@@ -5,6 +5,7 @@ import React, { useRef, useState, useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -55,7 +56,18 @@ const Hero = () => {
                   {showSocial && <Social />}
               </div>
               <div  className="text-xs font-light flex-center wow fadeIn low-opacity light">
-                  <a className="text-xs font-light" href="mailto:amitos80@gmail.com?Subject=Freelance project" target="_top">amitos80@gmail.com</a>
+                  <OutboundLink
+                      className={`animated fadeIn text-xs font-light`}
+                      style={{
+                          animationDelay: `${21 * 0.25 + 0.25}s`,
+                      }}
+                      data-place="bottom"
+                      href="mailto:amitos80@gmail.com?Subject=Freelance project"
+                      target="_top"
+                  >
+
+                      amitos80@gmail.com
+                  </OutboundLink>
               </div>
           </div>
         </div>

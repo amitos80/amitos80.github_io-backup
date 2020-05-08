@@ -23,7 +23,16 @@ const Resume = ({ expended = false }) => {
 
   return (
     <section id="resume">
-      <Heading icon={IoIosDocument} title="Résumé" />
+      <Heading icon={IoIosDocument} title="Résumé">
+          <OutboundLink
+              href="https://amitos80.github.io/resume-cv-amit-friedberg-freelance-web-developer.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 text-xs font-light"
+          >
+              Download CV
+          </OutboundLink>
+      </Heading>
 
       {!expended && <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center wow fadeIn">
         <div className="col-span-1 md:col-span-2">
