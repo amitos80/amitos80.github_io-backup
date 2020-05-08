@@ -13,7 +13,7 @@ const Hero = () => {
   const [parallax, setParallax] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
   const [showSocial, setShowSocial] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(true);
   const data = useStaticQuery(graphql`
     {
       photo: file(relativePath: { eq: "photo.png" }) {
@@ -61,11 +61,12 @@ const Hero = () => {
           <div style={{ width: '200px' }} className="mx-auto" data-depth="0.4">
             <GatsbyImage title="profile photo" alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
               <div style={{ width: '190px' }} className="mx-auto h-2 my-6">
-                  {showSocial && <Social animation={!isLoaded} />}
+                  {!isLoaded && showSocial && <Social animation={!isLoaded} />}
+                  {isLoaded && <Social animation={!isLoaded} />}
               </div>
-              <div  className="text-xs font-light flex-center wow fadeIn low-opacity light">
+              <div  className="text-xs font-light flex-center low-opacity light">
                   <OutboundLink
-                      className={`${ !isLoaded ? 'animated fadeIn' : ''}  text-xs font-light`}
+                      className={`text-xs font-light low-opacity light ${ !isLoaded ? 'animated fadeIn' : ''}  `}
                       style={{
                           animationDelay: !isLoaded ? `${21.5 * 0.25 + 0.25}s` : '0s',
                       }}
@@ -73,7 +74,6 @@ const Hero = () => {
                       href="mailto:amitos80@gmail.com?Subject=Freelance project"
                       target="_top"
                   >
-
                       amitos80@gmail.com
                   </OutboundLink>
               </div>
@@ -89,6 +89,7 @@ const Hero = () => {
 
           <div className="text-center lg:text-left flex flex-col items-center lg:ml-4 lg:items-start">
             <Subtitle
+              animate={!isLoaded}
               onDone={() => {
                 setShowSocial(true);
                 ReactTooltip.rebuild();

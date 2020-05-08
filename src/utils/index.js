@@ -1,4 +1,7 @@
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const isMobile = () => {
+ if (typeof window === 'undefined') { return }
+ return /iPhone|iPad|iPod|Android/i.test(`${(navigator && navigator.userAgent) || 'none'}`);
+}
 
 const localStorageSet = (key, value, ttl) => {
     if (typeof window === 'undefined') { return }
@@ -6,11 +9,12 @@ const localStorageSet = (key, value, ttl) => {
         value: value,
         expiry: new Date().getTime() + ttl
     }
-    localStorage.setItem(key, JSON.stringify(item))
+    window.localStorage.setItem(key, JSON.stringify(item))
 }
 
 const localStorageGet = (key) => {
-    const itemStr = localStorage.getItem(key)
+    if (typeof window === 'undefined') { return }
+    const itemStr = window.localStorage.getItem(key)
     if (!itemStr) {
         return undefined;
     }

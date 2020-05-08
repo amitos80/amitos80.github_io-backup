@@ -17,8 +17,11 @@ import { localStorageGet, localStorageSet } from '../utils'
 
 const IndexPage = ({ pageContext }) => {
     const loaded = localStorageGet('loaded');
+    console.log('Projects loaded -> ', loaded);
     if (!loaded) {
         setTimeout(() => localStorageSet('loaded', true, 2 * 60 * 1000), 8000);
+        setTimeout(() => console.log('after Projects loaded -> ', localStorageGet('loaded')), 8100);
+
     }
   return (
     <Wrapper breaddata={pageContext.breadcrumb}>
