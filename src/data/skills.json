@@ -3,36 +3,42 @@
     "icon": "../images/skills/js.png",
     "name": "Web Development - Front End and Backend",
     "tech": "HTML/CSS/Javascript/Nodejs",
-    "alt": "javascript logo"
+    "alt": "web developer skills javascript logo",
+    "title": "freelance web developer skills javascript"
   },
   {
     "icon": "../images/skills/react.png",
     "name": "Frontend Javascript Frameworks",
     "tech": "React/Vue.js/Riot/Angular",
-    "alt": "React logo"
+    "alt": "web developer skills  React",
+    "title": "freelance web developer skills javascript"
   },
   {
     "icon": "../images/skills/nodejs.png",
     "name": "Backend Javascript Frameworks",
     "tech": "Node.js/Express.js/Mongoose/Express Restify Mongoose",
-    "alt": "Nodejs logo"
+    "alt": "web developer skills  Nodejs",
+    "title": "freelance web developer skills Nodejs"
   },
   {
     "icon": "../images/skills/database.png",
     "name": "Database Management System",
     "tech": "MongoDB/MySQL/Cassandra",
-    "alt": "DB logo"
+    "alt": "web developer skills MongoDB/MySQL/Cassandra",
+    "title": "freelance web developer skills MongoDB/MySQL/Cassandra"
   },
   {
     "icon": "../images/skills/android.png",
     "name": "Android App Development",
     "tech": "Android Studio/Java/XML",
-    "alt": "android logo"
+    "alt": "freelance Android developer",
+    "title": "freelance developer skills Android App Development"
   },
   {
     "icon": "../images/skills/seo.png",
     "name": "Search Engine Optimization",
     "tech": "PageRank/Schema.org Implementation/Best Practices/Google Analytics",
-    "alt": "seo logo"
+    "alt": "web developer skills SEO",
+    "title": "freelance web developer skills SEO"
   }
 ]

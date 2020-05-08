@@ -58,7 +58,7 @@ const Hero = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-5 row-gap-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
         <div ref={parallaxRef} className="col-span-2">
           <div style={{ width: '200px' }} className="mx-auto" data-depth="0.4">
-            <GatsbyImage title="profile photo" alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
+            <GatsbyImage title="profile photo" alt="amit friedberg profile photo" loading="lazy" {...data.photo.childImageSharp} />
               <div style={{ width: '190px' }} className="mx-auto h-2 my-6">
                   {!isLoaded && showSocial && <Social animation={!isLoaded} />}
                   {isLoaded && <Social animation={!isLoaded} />}

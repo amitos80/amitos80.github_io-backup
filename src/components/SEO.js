@@ -9,7 +9,7 @@ const SEO = ({ location = '/' }) => {
     const meta = {
         '/': {
             siteMetadata: {
-                title: `Amit Friedberg Tel-Aviv based Freelance Web Developer`,
+                title: `Amit Friedberg Freelance Web Developer in Tel-Aviv`,
                 description: `Hire Freelance Web Developer, Remote Web Developer, Remote Freelance Web Developer, Hire Remote Web Developer - Freelance Full Stack Web Developer.`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/site-screenshot.png"`
@@ -17,15 +17,15 @@ const SEO = ({ location = '/' }) => {
         },
         '/home/': {
             siteMetadata: {
-                title: `Amit Friedberg Tel-Aviv based Freelance Web Developer`,
-                description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Freelance Nodejs Developer, Remote Freelance Web Developer, Hire Remote Web Developer`,
+                title: `Amit Friedberg Freelance Web Developer in Tel-Aviv`,
+                description: `Hire Freelance Web Developers, Freelance React Developers, Freelance Vue Developers, Freelance Nodejs Developers, Remote Web Developers, Remote Freelance Web Developers`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/site-screenshot.png"`
             }
         },
         '/resume/': {
             siteMetadata: {
-                title: `Freelance Web Developer Online Résumé`,
+                title: `Amit Friedberg Freelance Web Developer (Tel-Aviv) - Résumé`,
                 description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Freelance Nodejs Developer, Remote Web Developer - Résumé CV`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/resume-screenshot.png"`
@@ -33,7 +33,7 @@ const SEO = ({ location = '/' }) => {
         },
         '/about/': {
             siteMetadata: {
-                title: `About Amit Friedberg Tel-Aviv based Freelance Web Developer`,
+                title: `Amit Friedberg Freelance Web Developer (Tel-Aviv) - About/Bio`,
                 description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Freelance Nodejs Developer, Remote Web Developer - About me Bio`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/about-screenshot.png"`
@@ -41,23 +41,23 @@ const SEO = ({ location = '/' }) => {
         },
         '/experience/': {
             siteMetadata: {
-                title: `Amit Friedberg Tel-Aviv based Freelance Web Developer experience`,
-                description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Freelance Nodejs Developer, Remote Web Developer - Professional experience`,
+                title: `Amit Friedberg Freelance Web Developer (Tel-Aviv) - Experience`,
+                description: `Hire Freelance Web Developers, Freelance React Developers, Freelance Vue Developers, Freelance Nodejs Developers - Proven professional experience`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/experience-screenshot.png"`
             }
         },
         '/projects/': {
             siteMetadata: {
-                title: `Projects Amit Friedberg Freelance Web Developer worked on`,
-                description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Remote Web Developer - Freelance (Full Stack) Web Developer Projects list`,
+                title: `Amit Friedberg Freelance Web Developer (Tel-Aviv) - Projects`,
+                description: `Hire Freelance Web Developer, Freelance React Developer, Freelance SEO, Remote Freelance Web Developer - Freelance (Full Stack) Web Developer Projects list`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/projects-screenshot.png"`
             }
         },
         '/skills/': {
             siteMetadata: {
-                title: `Amit Friedberg Freelance Web Developer - Skills (Tel-Aviv)`,
+                title: `Amit Friedberg Freelance Web Developer (Tel-Aviv) - Skills`,
                 description: `Hire Freelance Web Developer, Freelance React Developer, Freelance Vue Developer, Freelance Nodejs Developer, Remote Web Developer - Skills Page`,
                 author: `Amit Friedberg`,
                 image: `"https://amitos80.github.io/skills-screenshot.png"`
