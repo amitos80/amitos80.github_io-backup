@@ -6,7 +6,7 @@ import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import { localStorageGet } from '../utils'
+import { localStorageGet, localStorageSet } from '../utils'
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -91,6 +91,7 @@ const Hero = () => {
               animate={!isLoaded}
               onDone={() => {
                 setShowSocial(true);
+                localStorageSet('loaded', true, 30 * 60 * 1000);
                 ReactTooltip.rebuild();
               }}
             />
