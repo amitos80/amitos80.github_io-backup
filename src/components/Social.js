@@ -2,8 +2,9 @@ import { OutboundLink } from "gatsby-plugin-google-analytics";
 import React from "react";
 import social from "../data/social";
 import styles from "./Social.module.css";
+import PropTypes from 'prop-types'
 
-const Social = () => {
+const Social = ({ animation = false }) => {
   return (
     <div className={styles.container}>
       {social.map((x, i) => {
@@ -15,9 +16,9 @@ const Social = () => {
             href={x.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${x.class} animated fadeIn`}
+            className={`${x.class} ${animation ? 'animated fadeIn' : '' } `}
             style={{
-              animationDelay: `${i * 0.25 + 0.25}s`,
+              animationDelay: animation ? `${i * 0.25 + 0.25}s` : '0s',
             }}
             data-tip={x.title}
             data-place="bottom"
@@ -31,4 +32,7 @@ const Social = () => {
   );
 };
 
+Social.propTypes = {
+    animation: PropTypes.bool
+};
 export default Social;

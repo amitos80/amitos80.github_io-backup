@@ -6,12 +6,14 @@ import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { localStorageGet } from '../utils'
 
 const Hero = () => {
   const parallaxRef = useRef(null);
   const [parallax, setParallax] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
   const [showSocial, setShowSocial] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   const data = useStaticQuery(graphql`
     {
       photo: file(relativePath: { eq: "photo.png" }) {
@@ -23,6 +25,11 @@ const Hero = () => {
       }
     }
   `);
+
+  useEffect(() => {
+      setIsLoaded(localStorageGet('loaded'));
+  }, []);
+
 
   useEffect(() => {
     if (typeof window !== `undefined`) {
@@ -46,6 +53,7 @@ const Hero = () => {
     };
   }, [parallaxRef]);
 
+  console.log('Hero isLoaded -> ', isLoaded);
   return (
     <section style={{ minHeight: '50vh' }} id="hero" className="min-h-screen flex items-center container">
       <div className="w-full grid grid-cols-1 lg:grid-cols-5 row-gap-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
@@ -53,13 +61,13 @@ const Hero = () => {
           <div style={{ width: '200px' }} className="mx-auto" data-depth="0.4">
             <GatsbyImage title="profile photo" alt="profile photo" loading="lazy" {...data.photo.childImageSharp} />
               <div style={{ width: '190px' }} className="mx-auto h-2 my-6">
-                  {showSocial && <Social />}
+                  {showSocial && <Social animation={!isLoaded} />}
               </div>
               <div  className="text-xs font-light flex-center wow fadeIn low-opacity light">
                   <OutboundLink
-                      className={`animated fadeIn text-xs font-light`}
+                      className={`${ !isLoaded ? 'animated fadeIn' : ''}  text-xs font-light`}
                       style={{
-                          animationDelay: `${21 * 0.25 + 0.25}s`,
+                          animationDelay: !isLoaded ? `${21.5 * 0.25 + 0.25}s` : '0s',
                       }}
                       data-place="bottom"
                       href="mailto:amitos80@gmail.com?Subject=Freelance project"
