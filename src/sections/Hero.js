@@ -53,7 +53,6 @@ const Hero = () => {
     };
   }, [parallaxRef]);
 
-  console.log('Hero isLoaded -> ', isLoaded);
   return (
     <section style={{ minHeight: '50vh' }} id="hero" className="min-h-screen flex items-center container">
       <div className="w-full grid grid-cols-1 lg:grid-cols-5 row-gap-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
