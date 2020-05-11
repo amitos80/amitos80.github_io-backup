@@ -10,7 +10,8 @@ const links = [
     { path: 'projects' },
     { path: 'experience' },
     { path: 'resume' },
-    { path: 'skills' }
+    { path: 'skills' },
+    { path: 'contact' }
 ];
 
 const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
