@@ -24,5 +24,9 @@
             <loc>https://amitos80.github.io/skills</loc>
             <lastmod>2020-05-11</lastmod>
             <changefreq>daily</changefreq>
+            </url>,<url>
+            <loc>https://amitos80.github.io/contact</loc>
+            <lastmod>2020-05-11</lastmod>
+            <changefreq>daily</changefreq>
             </url>
     </urlset>
