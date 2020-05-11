@@ -117,6 +117,16 @@ h3 {
     border-color: transparent !important;
 }
 
+.bg-github {
+    border: 1px solid rgba(255, 255, 255, .9);
+    width: 21px;
+    height: 21px;
+}
+
+.bg-github > svg {
+    color: rgba(255, 255, 255, .9) !important;
+}
+
 @screen md {
   html,
   body {

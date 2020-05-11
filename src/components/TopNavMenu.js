@@ -12,9 +12,14 @@ const TopNavMenu = ({ location }) => {
             { href:'/skills/', text: 'Skills'},
             { href:'/experience/', text: 'Experience'},
             { href:'/resume/', text: 'Résumé'},
-            { href:'/about/', text: 'About'}
+            { href:'/contact/', text: 'Contact'}
         ].map((item, key) => (
-                <Link to={item.href} className={`${item.href === location ? styles.selected : ''} ${styles.item} sm:text-sm text-md mr-10 font-semibold`} key={key}>{item.text}</Link>
+                <Link
+                    to={item.href}
+                    className={`${item.href === location ? styles.selected : ''} ${styles.item} sm:text-sm text-md mr-10 font-semibold`}
+                    key={key}>
+                    {item.text}
+                </Link>
             )
         )}
     </div>
