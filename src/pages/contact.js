@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 const IndexPage = ({ pageContext }) => {
   return (
     <Wrapper breaddata={pageContext.breadcrumb}>
-      <div className={`pt-10 pl-10 container contact ${styles.layout} `}>
+      <div className={`pt-10 container contact ${styles.layout} `}>
         <Footer hideDescription={true} hideHeading={true} largeText={true} reverse={true}/>
       </div>
     </Wrapper>
