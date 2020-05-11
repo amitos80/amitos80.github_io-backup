@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "description": "",
-    "version": "1.1.9",
+    "version": "1.2.0",
     "author": "Amit Friedberg <amitos80@gmail.com>",
     "dependencies": {
         "gatsby": "2.20.29",
@@ -33,6 +33,7 @@
         "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
         "fix": "npm run fix:lint && npm run fix:prettier",
         "build": "node ./src/build-sitemap.js && gatsby build",
+        "deploy-github": "./deploy.sh",
         "develop": "gatsby develop",
         "deploy": "gatsby build --prefix-paths && gh-pages -d public",
         "dev": "npm run develop",
