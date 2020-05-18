@@ -22,7 +22,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.purple['500'],
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `static/icon.png`,
         cache_busting_mode: `none`,
       },
     },

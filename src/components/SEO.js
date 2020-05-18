@@ -78,7 +78,7 @@ const SEO = ({ location = '/' }) => {
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
-  const profileImage = `"https://amitos80.github.io/profile.png"`;
+  const logoImage = `"https://amitos80.github.io/icon.png"`;
   const orgName = '"Freelance Web Developer"';
   const skills = '"Frontend development, Backend development, Javascript, HTML, CSS, React, Front End.js, Node.js, MongoDB, MySQL, Cassandra, Software Development, Building web apps, Freelance developer"';
 
@@ -90,7 +90,7 @@ const SEO = ({ location = '/' }) => {
     "@type": "Person",
     "name": "Amit Friedberg",
     "url": "https://amitos80.github.io/",
-    "image": ${profileImage},
+    "image": ${logoImage},
     "sameAs": [
         "https://www.instagram.com/amitfriedberg",
         "https://www.facebook.com/amit.friedberg",
