@@ -78,7 +78,7 @@ const SEO = ({ location = '/' }) => {
   const title = site.siteMetadata.title;
   const description = site.siteMetadata.description;
   const author = site.siteMetadata.author;
-  const logoImage = `"https://amitos80.github.io/icon.png"`;
+  const logoImage = `"https://amitos80.github.io/icon_320x180.png"`;
   const orgName = '"Freelance Web Developer"';
   const skills = '"Frontend development, Backend development, Javascript, HTML, CSS, React, Front End.js, Node.js, MongoDB, MySQL, Cassandra, Software Development, Building web apps, Freelance developer"';
 
