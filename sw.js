@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ded6caf4844b99d2e608.js"
+    "url": "webpack-runtime-4dba4cfd5979a976fa6f.js"
   },
   {
     "url": "styles.c153cf36c2a27b49ea39.css"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "framework-bc3c81326843ee5b6ef6.js"
   },
   {
-    "url": "app-71c30f6a7f71416dce85.js"
+    "url": "app-e8f52a05bf02c9ef40e5.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d50518cb95b34b7fb5986b8becbc9d98"
+    "revision": "4f8724ab012bc4f231e16c939df62127"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-18b9bd78e89bbe4752a5.js"
@@ -58,7 +58,7 @@ self.__precacheManifest = [
     "url": "252f366e-36b492e5794f9d1e61c1.js"
   },
   {
-    "url": "component---src-pages-home-js-3fe637242f30fe58160c.js"
+    "url": "component---src-pages-home-js-5a5e321cfa6b4c40d407.js"
   },
   {
     "url": "page-data/home/page-data.json",
@@ -66,31 +66,31 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "ab8b70c350f8f4e2bb79651c316a217a"
+    "revision": "05a988a0822c6e2258861007df6dbe80"
   },
   {
-    "url": "component---src-pages-projects-js-d50c240abfb88f22ce0f.js"
+    "url": "component---src-pages-projects-js-44c1267275c95b72dbf5.js"
   },
   {
     "url": "page-data/projects/page-data.json",
     "revision": "90670ff3891eb0dae388d43370e88dbd"
   },
   {
-    "url": "component---src-pages-skills-js-7107bfc73ae24327aa7a.js"
+    "url": "component---src-pages-skills-js-a0602cd01cc4a3b29ed0.js"
   },
   {
     "url": "page-data/skills/page-data.json",
     "revision": "957a842f379aba1d7d3ce53aaddaad17"
   },
   {
-    "url": "component---src-pages-experience-js-3f3861d5b25c9e375a33.js"
+    "url": "component---src-pages-experience-js-14580d9eda7fe2b08140.js"
   },
   {
     "url": "page-data/experience/page-data.json",
     "revision": "b039595895b5abc8aa8b35fd04ae2531"
   },
   {
-    "url": "component---src-pages-resume-js-65c6395dfb4ce4cb7eb3.js"
+    "url": "component---src-pages-resume-js-82bae63dafa61b938502.js"
   },
   {
     "url": "page-data/resume/page-data.json",
@@ -191,7 +191,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-71c30f6a7f71416dce85.js`))) {
+  if (!resources || !(await caches.match(`/app-e8f52a05bf02c9ef40e5.js`))) {
     return await fetch(event.request)
   }
 

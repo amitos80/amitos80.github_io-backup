@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Freelance Web Developer - Amit Freidberg","short_name":"Freelance Web Developer","start_url":"/","background_color":"#fff","theme_color":"#9f7aea","display":"minimal-ui","icon":"src/images/icon.png","cache_busting_mode":"none"},
+      options: {"plugins":[],"name":"Freelance Web Developer - Amit Freidberg","short_name":"Freelance Web Developer","start_url":"/","background_color":"#fff","theme_color":"#9f7aea","display":"minimal-ui","icon":"static/icon.png","cache_busting_mode":"none"},
     },{
       plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[],"precachePages":["/home/","/projects/","/skills/","/experience/","/resume/"]},
