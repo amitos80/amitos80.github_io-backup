@@ -3,7 +3,6 @@ import GatsbyImage from "gatsby-image";
 import { Link } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics";
 import React from "react";
-import Button from "../components/Button";
 import Heading from "../components/Heading";
 import { FaLink, IoIosDocument } from "../components/Icons";
 import PropTypes from 'prop-types'
@@ -23,7 +22,7 @@ const Resume = ({ expended = false }) => {
 
   return (
     <section id="resume">
-      <Heading icon={IoIosDocument} title="Résumé">
+      <Heading icon={IoIosDocument} title="Home Made Résumé">
           <OutboundLink
               href="https://amitos80.github.io/resume-cv-amit-friedberg-freelance-web-developer.pdf"
               target="_blank"
@@ -55,18 +54,7 @@ const Resume = ({ expended = false }) => {
           </OutboundLink>
         </div>
         <div className="col-span-1 md:col-span-3">
-          <h4 className="text-lg lg:text-xl font-semibold">
-            Home Made Résumé
-          </h4>
 
-          <Button
-            className="mt-8"
-            icon={IoIosDocument}
-            title="Download Résumé"
-            onClick={() =>
-              window.open("https://amitos80.github.io/resume-cv-amit-friedberg-freelance-web-developer.pdf", "_blank")
-            }
-          />
         </div>
       </div>}
 
@@ -119,21 +107,7 @@ const Resume = ({ expended = false }) => {
                     <span className="sr-only">Download Résumé</span>
                 </OutboundLink>
             </div>
-            <div className="col-span-1 md:col-span-3">
-                <h4 className="text-lg lg:text-xl font-semibold">
-                    Home Made Résumé
-                </h4>
-
-                <Button
-                    className="mt-8 clear-button"
-                    icon={IoIosDocument}
-                    title="Download Résumé"
-                    onClick={() =>
-                        window.open("https://amitos80.github.io/resume-cv-amit-friedberg-freelance-web-developer.pdf", "_blank")
-                    }
-                />
-            </div>
-
+            <div className="col-span-1 md:col-span-3" />
         </div>}
     </section>
   );
