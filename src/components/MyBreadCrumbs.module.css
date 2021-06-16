@@ -2,7 +2,7 @@
     transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.container {
+.bccontainer {
     display: inline-block;
     z-index: 20;
     position: absolute;
@@ -20,14 +20,14 @@
 }
 
 @screen sm {
-    .container {
+    .bccontainer {
         top: 20px;
         left: 60px;
     }
 }
 
 @screen md {
-    .container {
+    .bccontainer {
         position: absolute;
         top: 10px;
         right: 10px;
@@ -41,10 +41,10 @@
 }
 
 @screen lg {
-    .container {
+    .bccontainer {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 10px;
+        right: 35px;
         left: unset;
         display: block;
     }

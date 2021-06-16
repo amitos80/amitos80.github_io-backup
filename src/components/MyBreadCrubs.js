@@ -6,7 +6,7 @@ import styles from "./MyBreadCrumbs.module.css";
 const MyBreadCrumbs = ({ breaddata = { crumbs: [] } }) => {
     const elementsNew = breaddata.crumbs.map(item => ({ pathname: item.pathname, crumlabel: item.crumbLabel.replace(/-/g, ' ') }));
     return (
-        <div className={styles.container}>
+        <div className={styles.bccontainer}>
             <ul className={`${styles.list} breadcrumb__list`}>
                 {elementsNew.map((value, index) => (
                     <li key={index} className="breadcrumb__item">
