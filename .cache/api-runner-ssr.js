@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Freelance Web Developer - Amit Freidberg","short_name":"Freelance Web Developer","start_url":"/","background_color":"#fff","theme_color":"#9f7aea","display":"minimal-ui","icon":"static/icon.png","cache_busting_mode":"none"},
     },{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[],"precachePages":["/home/","/projects/","/skills/","/experience/","/resume/"]},
     },{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Fira Sans:400,600"],"display":"swap"},
     },{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-breadcrumb/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-breadcrumb/gatsby-ssr'),
       options: {"plugins":[],"useAutoGen":true},
     },{
-      plugin: require('/Users/amit/Projects/amitos80.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/amitfriedberg/Projects/amitos80.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-55236659-4","anonymize":true,"alwaysSendReferrer":true,"cookieExpires":2592000,"forceSSL":true,"head":false,"respectDNT":true,"pageTransitionDelay":180,"defer":false,"sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"amitos80.github.io"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
