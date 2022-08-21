@@ -3,7 +3,7 @@ import Wrapper from "../components/Wrapper";
 import Footer from "../sections/Footer";
 import Hero from "../sections/Hero";
 import Projects from "../sections/Projects";
-import styles from "./index.module.css";
+import * as styles from "./index.module.css";
 import PropTypes from 'prop-types'
 
 

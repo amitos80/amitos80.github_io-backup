@@ -1,5 +1,22 @@
 [
     {
+        "image": "../images/projects/easyway.jpg",
+        "title": "EasyWay hosting management",
+        "description": "",
+        "tags": [
+            "react",
+            "styled-Components",
+            "chakra-ui",
+            "postgres",
+            "kafka",
+            "websockets",
+            "smooch",
+            "real-time messaging"
+        ],
+        "alt": "EasyWay hosting management",
+        "website": "https://www.easyway.ai/home"
+    },
+    {
         "image": "../images/projects/lnrd.png",
         "title": "Lnrd at StoreMaven",
         "description": "",

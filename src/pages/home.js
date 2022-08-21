@@ -9,7 +9,7 @@ import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
 import Work from "../sections/Work";
-import styles from "./home.module.css";
+import * as styles from "./home.module.css";
 import PropTypes from 'prop-types';
 
 

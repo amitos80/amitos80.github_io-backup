@@ -1,8 +1,7 @@
-import { graphql, useStaticQuery } from "gatsby";
-import GatsbyImage from "gatsby-image";
-import { Link } from "gatsby"
-import { OutboundLink } from "gatsby-plugin-google-analytics";
 import React from "react";
+import { graphql, useStaticQuery, Link } from "gatsby";
+import GatsbyImage from "gatsby-image";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Heading from "../components/Heading";
 import { FaLink, IoIosDocument } from "../components/Icons";
 import PropTypes from 'prop-types'

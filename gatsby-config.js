@@ -1,8 +1,5 @@
 const path = require(`path`);
-const resolveConfig = require("tailwindcss/resolveConfig");
-const tailwindConfig = require("./tailwind.config.js");
-
-const fullConfig = resolveConfig(tailwindConfig);
+require(`dotenv`).config({ path: `.env` });
 
 module.exports = {
   siteMetadata: {
@@ -11,6 +8,12 @@ module.exports = {
     author: `Amit Friedberg`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://amitos80.github.io`,
+      },
+    },
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
@@ -19,8 +22,8 @@ module.exports = {
         name: `Freelance Web Developer - Amit Freidberg`,
         short_name: `Freelance Web Developer`,
         start_url: '/',
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.purple['500'],
+        background_color: 'white',
+        theme_color: 'purple',
         display: `minimal-ui`,
         icon: `static/icon.png`,
         cache_busting_mode: `none`,
@@ -29,7 +32,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/home/`, `/projects/`, `/skills/`, `/experience/`, `/resume/` ],
+        workboxConfig: {
+          globPatterns: [`/home/`, `/projects/`, `/skills/`, `/experience/`, `/resume/`],
+        },
       },
     },
     {
@@ -39,8 +44,21 @@ module.exports = {
         display: `swap`,
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        cssLoaderOptions: {
+          esModule: false,
+          modules: {
+            namedExport: false
+          }
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -77,32 +95,12 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `amitfriedberg`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require(`tailwindcss`)(tailwindConfig),
-          require(`autoprefixer`),
-          ...(process.env.NODE_ENV === `production`
-            ? [require(`cssnano`)]
-            : []),
-        ],
-      },
-    },
-    {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         tailwind: true,
         purgeOnly: [`src/css/tailwind.css`],
       },
     },
-    `gatsby-plugin-minify`,
-    `gatsby-plugin-netlify-headers`,
     {
       resolve: 'gatsby-plugin-zopfli'
     },

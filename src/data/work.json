@@ -4,7 +4,25 @@
     "alt": "Amit Friedberg web developer logo",
     "title": "Freelance Web Developer",
     "subtitle": "",
-    "period": "2019 - Now",
+    "period": "2021 - 2022",
+    "location": "Tel-Aviv, Israel",
+    "specialization": "React, Vuejs, Styled-Components, Atomic Design, Redux, Nodejs, Redis, MongoDb, WebSockets, Postgres, Kafka and more..."
+  },
+  {
+    "icon": "../images/work/easyway.png",
+    "alt": "Senior full stack developer at EasyWay",
+    "title": "Senior Full Stack Developer",
+    "subtitle": "",
+    "period": "2020 - 2021",
+    "location": "Tel-Aviv, Israel",
+    "specialization": "React, Styled-Components, Chakra-UI, Atomic Design, UI-Kit, Postgres, Kafka, Nodejs, WebSockets, Smooch integrations, PMS integrations, Real-Time Messaging"
+  },
+  {
+    "icon": "../images/work/freelance.png",
+    "alt": "Amit Friedberg web developer logo",
+    "title": "Freelance Web Developer",
+    "subtitle": "",
+    "period": "2019 - 2020",
     "location": "Tel-Aviv, Israel",
     "specialization": "React, Vuejs, Styled-Components, Atomic Design, Redux, Nodejs, Redis, MongoDb, Angular, Real-Time Analytics and more..."
   },

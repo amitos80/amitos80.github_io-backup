@@ -34,15 +34,15 @@
 
 .layout {
   min-height: 100vh;
-  @apply grid grid-cols-1 row-gap-12;
+  @apply grid grid-cols-1 gap-12;
 }
 
 .layout .work-education {
-  @apply grid grid-cols-1 row-gap-12;
+  @apply grid grid-cols-1 gap-12;
 }
 
 .layout .achievements-certification-philanthropy {
-  @apply grid grid-cols-1 row-gap-12;
+  @apply grid grid-cols-1 gap-12;
 }
 
 .layout .achievements-certification-philanthropy > div {
@@ -52,11 +52,11 @@
 @screen md {
   .layout {
       grid-row-gap: 4rem;
-      row-gap: 4rem;
+      gap: 4rem;
   }
 
   .layout .work-education {
-    @apply grid-cols-2 row-gap-0;
+    @apply grid-cols-2 gap-0;
   }
 
   .layout .achievements-certification-philanthropy {

@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Footer from "../sections/Footer";
-import styles from "./index.module.css";
+import * as styles from "./index.module.css";
 import PropTypes from 'prop-types'
 
 

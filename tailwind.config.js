@@ -1,13 +1,18 @@
-const { colors } = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
+  purge: [
+    './src/**/*.html',
+    './src/**/*.css',
+    './src/**/*.js',
+  ],
   theme: {
     container: {
       center: true,
     },
     extend: {
       colors: {
-        primary: colors.purple,
+        primary: colors.teal,
         instagram: "#E1306C",
         linkedin: "#2867B2",
         github: "#211F1F",
@@ -19,4 +24,6 @@ module.exports = {
       },
     },
   },
+  variants: {},
+  plugins: [],
 };
